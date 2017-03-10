@@ -122,8 +122,8 @@ noremap <S-tab> :bp<CR>
 " Arrow keys to resize windows
 nnoremap <Left> :vertical resize +5<CR>
 nnoremap <Right> :vertical resize -5<CR>
-nnoremap <Up> :resize +5<CR>
-nnoremap <Down> :resize -5<CR>
+nnoremap <Up> :resize -5<CR>
+nnoremap <Down> :resize +5<CR>
 
 " Auto-center search results
 nnoremap n nzz
