@@ -18,10 +18,17 @@ function install_dotfiles() {
   symlink "${HOME}/.dotfiles/vim" "${HOME}/.vim"
 
   # Bash profile
-  symlink "${HOME}/.dotfiles/bash" "${HOME}/.bash"
-  symlink "${HOME}/.dotfiles/bash/profile" "${HOME}/.profile"
-  symlink "${HOME}/.dotfiles/bash/profile" "${HOME}/.bashrc"
-  symlink "${HOME}/.dotfiles/bash/profile" "${HOME}/.bash_profile"
+  if [[ "$(echo ${0} | awk -F"/" '{print $NF}')" == "bash" ]]; then
+    symlink "${HOME}/.dotfiles/bash" "${HOME}/.bash"
+    symlink "${HOME}/.dotfiles/bash/profile" "${HOME}/.profile"
+    symlink "${HOME}/.dotfiles/bash/profile" "${HOME}/.bashrc"
+    symlink "${HOME}/.dotfiles/bash/profile" "${HOME}/.bash_profile"
+  else
+    symlink "${HOME}/.dotfiles/zsh" "${HOME}/.zsh"
+    symlink "${HOME}/.dotfiles/zsh/profile" "${HOME}/.profile"
+    symlink "${HOME}/.dotfiles/zsh/profile" "${HOME}/.zshrc"
+    symlink "${HOME}/.dotfiles/zsh/profile" "${HOME}/.zsh_profile"
+  fi
 
   # inputrc
   symlink "${HOME}/.dotfiles/bash/inputrc" "${HOME}/.inputrc"
