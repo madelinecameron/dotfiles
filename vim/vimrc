@@ -19,6 +19,19 @@ Plug 'mhinz/vim-startify'                   " start screen
 Plug 'DataWraith/auto_mkdir'                " mkdir -p for creating files
 Plug 'sjl/gundo.vim'                        " view undo tree
 
+" Track the engine.
+Plug 'SirVer/ultisnips'
+
+Plug 'honza/vim-snippets'
+
+" Trigger configuration.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+
 " Essentials
 Plug 'vim-scripts/mru.vim'                  " recently opened files (mru)
 Plug 'scrooloose/syntastic'                 " syntax checker
@@ -120,8 +133,8 @@ nnoremap <tab> :bn<CR>
 noremap <S-tab> :bp<CR>
 
 " Arrow keys to resize windows
-nnoremap <Left> :vertical resize +5<CR>
-nnoremap <Right> :vertical resize -5<CR>
+nnoremap <Left> :vertical resize -5<CR>
+nnoremap <Right> :vertical resize +5<CR>
 nnoremap <Up> :resize -5<CR>
 nnoremap <Down> :resize +5<CR>
 
@@ -253,3 +266,6 @@ function! SetupPython()
   setlocal shiftwidth=2
 endfunction
 command! -bar SetupPython call SetupPython()
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
