@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. "${HOME}/.dotfiles/zsh/install"
+. "${HOME}/.dotfiles/install"
 
 # Autoload include directory
 for includeFile in $(find "${HOME}/.dotfiles/zsh/includes" -type f ! -iname *.swp)
@@ -37,7 +37,7 @@ if type -p rbenv >/dev/null 2>&1 ; then
 fi
 
 # liquid prompt
-source ~/.dotfiles/bash/liquidprompt/liquidprompt
+source ~/.dotfiles/zsh/liquidprompt/liquidprompt
 LP_PS1_PREFIX="\n"
 LP_PS1_POSTFIX="\n> "
 
