@@ -110,6 +110,9 @@ endif
 " Toggle search and highlight words under cursor
 nnoremap <c-f> :let @/='\<<C-R>=expand("<cword>")<CR>\>'<CR>:set hls!<CR>
 
+noremap <Tab> <c-w>w
+nnoremap <bs> <c-w>W
+
 " Fast quit
 nnoremap <leader>q :q<CR>
 

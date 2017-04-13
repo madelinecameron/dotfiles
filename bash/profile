@@ -50,6 +50,8 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
   ssh-add
 fi
 
+PATH=$PATH:/usr/lib/postgresql/9.5/bin
+
 # Grep colors
 export GREP_OPTIONS='--color=auto'
 
