@@ -1,0 +1,15 @@
+-   repo: git://github.com/pre-commit/pre-commit-hooks
+    sha: v0.4.2
+    hooks:
+    -   id: trailing-whitespace
+    -   id: check-json
+    -   id: pretty-format-json
+    -   id: double-quote-string-fixer
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+-   repo: git://github.com/pre-commit/mirrors-eslint
+    sha: v3.18.0
+    hooks:
+    -   id: eslint
+        additional_dependencies:
+        -   eslint-plugin-import@2.2.0

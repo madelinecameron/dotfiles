@@ -1,0 +1,11 @@
+#!/bin/bash
+
+PREV_COMMIT=$1
+
+if [[ -z "$PREV_COMMIT" ]]; then
+  echo "Looks like a fresh install... syncing my hooks into it..."
+
+  cp ~/.dotfiles/coding/pre-commit-config.yaml ./.pre-commit-config.yaml
+
+  pre-commit install
+fi
