@@ -41,3 +41,5 @@ echo '.pre-commit-config.yaml' > "$GITIGNORE_FILE"
 git config --global push.default current
 
 sudo apt-get install git-extras
+
+cp ./eslintrc.json ~/.eslintrc.json
