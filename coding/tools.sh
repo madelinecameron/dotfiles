@@ -22,10 +22,15 @@ if [ ! -f ~/.git-templates ]; then
   git config --global init.templatedir ~/.git-templates
 fi
 
-cp ./post-checkout  ~/.git-templates/hooks/post-checkout
-cp ./pre-push  ~/.git-templates/hooks/pre-push
+cp $HOME/.dotfiles/coding/post-checkout  ~/.git-templates/hooks/post-checkout
+cp $HOME/.dotfiles/coding/pre-push  ~/.git-templates/hooks/pre-push
+cp $HOME/.dotfiles/coding/commit-msg ~/.git-templates/hooks/commit-msg
+cp $HOME/.dotfiles/coding/validate-commit.py ~/.git-templates/hooks/validate-commit.py
+
 chmod a+x ~/.git-templates/hooks/post-checkout
 chmod a+x ~/.git-templates/hooks/pre-push
+chmod a+x ~/.git-templates/hooks/commit-msg
+chmod a+x ~/.git-templates/hooks/validate-commit.py
 
 # Create .gitignore if it is missing
 if [[ -z "$(git config --get core.excludesfile)" ]]; then
