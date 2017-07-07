@@ -55,11 +55,8 @@ export GREP_OPTIONS='--color=auto'
 export PATH=$HOME/usr/local/sbin:$PATH
 export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.bpkg/bin:"$PATH"
-export GOPATH=$HOME/code/pantryplan/API
+export GOPATH=$HOME/code/pantryplan/Backend
 export GOBIN=$GOPATH/bin
-
-# Better man pages
-export PAGER=most
 
 export ANDROID_HOME="$HOME/Android/Sdk"
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools
