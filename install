@@ -2,40 +2,43 @@
 
 function install_dotfiles() {
 
-  # FZF
-  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-  ~/.fzf/install
+  # Liquid prompt
+  echo -e "\nInstalling Liquid Prompt"
+  rm -rf $HOME/.dotfiles/zsh/liquidprompt
+  git clone git@github.com:nojhan/liquidprompt.git $HOME/.dotfiles/zsh/liquidprompt
+  symlink "${HOME}/.dotfiles/bash/liquidprompt/liquidpromptrc-dist" "${HOME}/.liquidpromptrc"
+
+  sudo apt-get install git-extras
 
   # Vim
   echo -e "\nSetting symlinks..."
   symlink "${HOME}/.dotfiles/vim/vimrc" "${HOME}/.vimrc"
   symlink "${HOME}/.dotfiles/vim" "${HOME}/.vim"
 
-  # Bash profile
-  SHELL="$(echo ${0} | awk -F"/" '{print $NF}')"
-  if [[ $SHELL == "bash" ]]; then
-    symlink "${HOME}/.dotfiles/bash" "${HOME}/.bash"
-    symlink "${HOME}/.dotfiles/bash/profile" "${HOME}/.profile"
-    symlink "${HOME}/.dotfiles/bash/profile" "${HOME}/.bashrc"
-    symlink "${HOME}/.dotfiles/bash/profile" "${HOME}/.bash_profile"
-  else
-    symlink "${HOME}/.dotfiles/zsh" "${HOME}/.zsh"
-    symlink "${HOME}/.dotfiles/zsh/profile" "${HOME}/.profile"
-    symlink "${HOME}/.dotfiles/zsh/profile" "${HOME}/.zshrc"
-    symlink "${HOME}/.dotfiles/zsh/profile" "${HOME}/.zsh_profile"
-  fi
-
-  # Liquid prompt
-  echo -e "\nInstalling Liquid Prompt for ${SHELL}"
-  rm -rf $HOME/.dotfiles/${SHELL}/liquidprompt
-  git clone git@github.com:nojhan/liquidprompt.git $HOME/.dotfiles/${SHELL}/liquidprompt
-  symlink "${HOME}/.dotfiles/${SHELL}/liquidprompt/liquidpromptrc-dist" "${HOME}/.liquidpromptrc"
+  # zsh profile
+  symlink "${HOME}/.dotfiles/zsh" "${HOME}/.zsh"
+  symlink "${HOME}/.dotfiles/zsh/start_vpn" "${HOME}/.start_vpn"
+  symlink "${HOME}/.dotfiles/zsh/profile" "${HOME}/.profile"
+  symlink "${HOME}/.dotfiles/zsh/profile" "${HOME}/.zshrc"
+  symlink "${HOME}/.dotfiles/zsh/profile" "${HOME}/.zsh_profile"
 
   # inputrc
-  symlink "${HOME}/.dotfiles/${SHELL}/inputrc" "${HOME}/.inputrc"
+  symlink "${HOME}/.dotfiles/zsh/inputrc" "${HOME}/.inputrc"
 
   # Tmux
   symlink "${HOME}/.dotfiles/tmux/tmux.conf" "${HOME}/.tmux.conf"
+
+  # git
+  symlink "${HOME}/.dotfiles/git/.gitconfig" "${HOME}/.gitconfig"
+  symlink "${HOME}/.dotfiles/git/.gitmessage" "${HOME}/.gitmessage"
+  symlink "${HOME}/.dotfiles/git/.git-templates" "${HOME}/.git-templates"
+
+  # guake
+  symlink "${HOME}/.dotfiles/guake/" "${HOME}/.gconf/apps/guake"
+
+  # vpn
+  symlink "${HOME}/.dotfiles/security/.openvpn/" "${HOME}/.openvpn"
+  ./security/install_pia.zsh
 
   # Remove broken symlinks
   clean_symlinks
@@ -73,3 +76,5 @@ function symlink() {
   ln -s $1 $2
   echo -e "$1 --> $2"
 }
+
+install_dotfiles

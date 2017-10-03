@@ -1,0 +1,37 @@
+[init]
+  templatedir = ~/.git-templates
+[push]
+  default = current
+[user]
+  email = "madeline.a.cameron@gmail.com"
+  name = "Madeline Cameron"
+[color]
+  ui = auto
+[alias]
+  aa = add --all
+  ap = add --patch
+  gd = diff
+  grm = rebase master
+  gra = rebase --abort
+  grc = rebase --continue
+  gs = status
+  gc = commit -m $1
+  oops = commit -a --amend
+  dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+  # Treat spaces before tabs and all kinds of trailing whitespace as an error
+  # [default] trailing-space: looks for spaces at the end of a line
+  # [default] space-before-tab: looks for spaces before tabs at the beginning of a line
+  whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+[merge]
+  ff = only
+[commit]
+  template = ~/.gitmessage
+[fetch]
+  prune = true
+[rebase]
+  autosquash = true
+[include]
+  path = ~/.gitconfig.local

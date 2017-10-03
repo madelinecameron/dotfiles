@@ -14,7 +14,7 @@ Paste this in the terminal. It will clone the repo, source the bash profile, the
 ```bash
 (
   git clone git@github.com:madelinecameron/dotfiles.git ~/.dotfiles;
-  source ~/.dotfiles/(zsh|bash)/profile;
+  source ~/.dotfiles/zsh/profile;
   install_dotfiles;
   vim +PlugInstall +qall +silent;
 )

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. "${HOME}/.dotfiles/install"
+. "${HOME}/.dotfiles/zsh/start_vpn"
 
 # Autoload include directory
 for includeFile in $(find "${HOME}/.dotfiles/zsh/includes" -type f)
@@ -22,25 +22,13 @@ set -o vi
 
 export EDITOR TZ LANG HISTFILE HISTSIZE CLICOLOR
 
-# Used by bash, unused by mksh
-if [ "${0##*/}" = "bash" ] || [ "${0}" = "-bash" ] ; then
-  setopt -s expand_aliases
-  setopt -s checkwinsize
-  HISTFILESIZE=2000
-  HISTCONTROL=ignoredups:ignorespace
-  export HISTFILESIZE HISTCONTROL
-fi
-
 # rbenv
 if type -p rbenv >/dev/null 2>&1 ; then
   eval "$(rbenv init -)"
 fi
 
 # liquid prompt
-source ~/.dotfiles/zsh/liquidprompt/liquidprompt/liquidprompt
-
-# Load a local profile
-# [ -r "${HOME}/.localprofile" ] && . "${HOME}/.localprofile"
+[[ $- = *i* ]] && source ${HOME}/.dotfiles/zsh/liquidprompt/liquidprompt
 
 # Start ssh-agent, load ssh keys
 if [ -z "$SSH_AUTH_SOCK" ] ; then
@@ -55,10 +43,5 @@ export GREP_OPTIONS='--color=auto'
 export PATH=$HOME/usr/local/sbin:$PATH
 export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.bpkg/bin:"$PATH"
-export GOPATH=$HOME/code/pantryplan/Backend
-export GOBIN=$GOPATH/bin
-
-export ANDROID_HOME="$HOME/Android/Sdk"
-export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
