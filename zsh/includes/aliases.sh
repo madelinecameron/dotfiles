@@ -1,7 +1,5 @@
 #!/usr/local/bin/zsh
 
-# @author Wells Johnston <w@wellsjohnston.com>
-
 # Shorthand
 alias l="ls -lha"
 alias c="clear"

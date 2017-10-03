@@ -1,0 +1,104 @@
+#!/bin/zsh
+
+##
+# The tag to deploy
+declare OPT_TAG
+
+##
+# Don't use history, allows for exclamation points
+set +H
+set +o histexpand
+
+##
+# Outputs usage information.
+usage () {
+  declare local extended=$1
+  declare -i local i=0
+  echo "usage: note [-t tag] <note>"
+  if (( $extended )); then
+    echo
+    echo "options:"
+    echo "  -t <tag>         Prepended string"
+  fi
+  return 0
+}
+
+##
+# Logs note
+take () {
+
+  local out
+  if [ ! -z $OPT_TAG ]; then
+    out+="$OPT_TAG: $@"
+  else
+    out+="$@"
+  fi
+
+  echo $out >> "$HOME/.notes/$(date +"%Y%m%d")"
+  return $?
+}
+
+##
+# Outputs errors to stderr.
+error () {
+  printf >&2 "error: "
+  echo >&2 "$@"
+  return 0
+}
+
+##
+# Log the note
+main () {
+
+  take $@
+  return $?
+}
+
+## handle implicit usage!
+if [ -z "$1" ]; then
+  usage 1 >&2
+  exit 1
+fi
+
+
+## parse opts!
+while [[ $# > 0 ]]; do
+  opt="$1"
+  case $opt in
+    -h|--help)
+      usage 1
+      exit 0
+      ;;
+
+    -t|--tag)
+      shift
+      if ! [ -z "$1" ]; then
+        OPT_TAG="$1"
+      fi
+      ;;
+
+    -l|--last)
+      shift
+      tail -3 "$HOME/.notes/$(ls $HOME/.notes | sort -n | tail -1)"
+      exit 0
+      ;;
+
+    *)
+      if [ "-" == "${opt:0:1}" ]; then
+        error "Unknown option \`$opt'."
+        usage 0 >&2
+        exit 1
+      else
+        ## preserve opts for ssh
+        break
+      fi
+      ;;
+  esac
+
+  ## shfit next argument
+  shift
+done
+
+main $@
+
+exit $?

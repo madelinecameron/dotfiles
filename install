@@ -40,6 +40,9 @@ function install_dotfiles() {
   symlink "${HOME}/.dotfiles/security/.openvpn/" "${HOME}/.openvpn"
   ./security/install_pia.zsh
 
+  # cron
+  symlink "${HOME}/.dotfiles/cron/reboot/" "/etc/cron.d/reboot"
+
   # Remove broken symlinks
   clean_symlinks
   echo -e "\nDone!"

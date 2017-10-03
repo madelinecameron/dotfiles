@@ -1,0 +1,97 @@
+#!/bin/zsh
+
+## This program name
+declare PROGRAM_NAME="$(basename $0)"
+
+## The name of the instance to look up
+declare OPT_NAME
+
+## The environment tag of the instance
+declare OPT_ENV
+
+## Regex to find an instance by
+declare OPT_REGEX
+
+## Outputs usage information.
+usage () {
+  declare local extended=$1
+  declare -i local i=0
+  echo "usage: $PROGRAM_NAME -n <name> [-e <env>]"
+  if (( $extended )); then
+    echo
+    echo "options:"
+    echo "  -n <name> Name of the instance to lookup"
+    echo "  -e <environment> Environment of the instance to look up"
+  fi
+  return 0
+}
+
+## parse opts!
+while (( $# > 0 )); do
+  opt=$1
+  case $opt in
+    -n|--name)
+      shift
+      if ! [ -z "$1" ]; then
+        OPT_NAME="$1"
+      fi
+      ;;
+
+    -e|--env)
+      shift
+      if ! [ -z "$1" ]; then
+        OPT_ENV="$1"
+      fi
+      ;;
+
+    -r|--regex)
+      shift
+      if ! [ -z "$1" ]; then
+        OPT_REGEX="$1"
+      fi
+      ;;
+
+    -h|--help)
+      usage 1
+      exit
+      ;;
+
+    *)
+      if [ "-" == "${1:0:1}" ]; then
+        echo >&2 "error: Unknown option \`$1'"
+        usage 0 >&2
+        exit 1
+      fi
+      ;;
+  esac
+  shift
+done
+
+if [ OPT_ENV ]; then
+  ## Base query to EC2. Get all instances with the tag 'Name' matching given
+  cmd="aws ec2 describe-instances --filters 'Name=tag:Name,Values=${OPT_NAME}'"
+
+  ## If an environment option was given, include it in the query
+  if [ ! -z "${OPT_ENV}" ]; then
+    cmd+=" 'Name=tag:env,Values=${OPT_ENV}'"
+  fi
+
+  ## Subselect the result to just the public name then remove the surrounding quotes
+  cmd+=" --query 'Reservations[0].Instances[0].[PublicDnsName][0]' | sed -e 's/^\"//' -e 's/\"$//'"
+
+  ## Execute the command
+  IP=$(eval "$cmd")
+else
+  instances=$(aws ec2 describe-instances --query 'Reservations[*].Instances[*].[PublicDnsName,Tags[?Key==`Name`].Value]')
+# instance=$(aws ec2 describe-instances --query 'Reservations[*].Instances[*].[Tags[?Key==`Name`].Value]' | tr --delete '\n' | tr --delete '[' | tr --delete ']' | sed -e 's/ \{2,\}//g' | cut -d',' -f1-)
+
+fi
+
+## If IP is not declared, error out
+if [ -z "${IP}" ]; then
+  echo "An IP could not be found for the given parameters (Name: ${OPT_NAME}, Env: ${OPT_ENV})"
+  exit 1
+fi
+
+## Log in.
+ssh ubuntu@${IP} -o "StrictHostKeyChecking no" -A
