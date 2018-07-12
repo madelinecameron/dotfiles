@@ -1,1 +1,1 @@
-@reboot ~/.dotfiles/zsh/start_vpn
+@reboot ~/.dotfiles/bash/start_vpn

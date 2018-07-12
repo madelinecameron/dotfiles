@@ -1,9 +1,9 @@
 #!/bin/bash
 
-. "${HOME}/.dotfiles/zsh/start_vpn"
+. "${HOME}/.dotfiles/bash/start_vpn"
 
 # Autoload include directory
-for includeFile in $(find "${HOME}/.dotfiles/zsh/includes" -type f)
+for includeFile in $(find "${HOME}/.dotfiles/bash/includes" -type f)
 do
   . "${includeFile}"
 done

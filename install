@@ -1,12 +1,6 @@
-#!/bin/bash
+ #!/bin/bash
 
 function install_dotfiles() {
-
-  # Liquid prompt
-  echo -e "\nInstalling Liquid Prompt"
-  rm -rf $HOME/.dotfiles/zsh/liquidprompt
-  git clone git@github.com:nojhan/liquidprompt.git $HOME/.dotfiles/zsh/liquidprompt
-  symlink "${HOME}/.dotfiles/bash/liquidprompt/liquidpromptrc-dist" "${HOME}/.liquidpromptrc"
 
   sudo apt-get install git-extras
 
@@ -16,14 +10,10 @@ function install_dotfiles() {
   symlink "${HOME}/.dotfiles/vim" "${HOME}/.vim"
 
   # zsh profile
-  symlink "${HOME}/.dotfiles/zsh" "${HOME}/.zsh"
-  symlink "${HOME}/.dotfiles/zsh/start_vpn" "${HOME}/.start_vpn"
-  symlink "${HOME}/.dotfiles/zsh/profile" "${HOME}/.profile"
-  symlink "${HOME}/.dotfiles/zsh/profile" "${HOME}/.zshrc"
-  symlink "${HOME}/.dotfiles/zsh/profile" "${HOME}/.zsh_profile"
-
-  # inputrc
-  symlink "${HOME}/.dotfiles/zsh/inputrc" "${HOME}/.inputrc"
+  symlink "${HOME}/.dotfiles/bash" "${HOME}/.zsh"
+  symlink "${HOME}/.dotfiles/bash/start_vpn" "${HOME}/.start_vpn"
+  symlink "${HOME}/.dotfiles/bash/.bash_profile" "${HOME}/.bash_profile"
+  symlink "${HOME}/.dotfiles/bash/.bashrc" "${HOME}/.bashrc"
 
   # Tmux
   symlink "${HOME}/.dotfiles/tmux/tmux.conf" "${HOME}/.tmux.conf"
@@ -33,12 +23,9 @@ function install_dotfiles() {
   symlink "${HOME}/.dotfiles/git/.gitmessage" "${HOME}/.gitmessage"
   symlink "${HOME}/.dotfiles/git/.git-templates" "${HOME}/.git-templates"
 
-  # guake
-  symlink "${HOME}/.dotfiles/guake/" "${HOME}/.gconf/apps/guake"
-
   # vpn
-  symlink "${HOME}/.dotfiles/security/.openvpn/" "${HOME}/.openvpn"
-  ./security/install_pia.zsh
+  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+  sudo apt-get install -y nodejs
 
   # cron
   symlink "${HOME}/.dotfiles/cron/reboot/" "/etc/cron.d/reboot"
