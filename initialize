@@ -4,8 +4,12 @@ function initialize_system() {
 
   sudo apt-get install git-extras
 
-  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-  sudo apt-get install -y nodejs
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+  nvm install --lts
+  nvm use --lts
 
   sudo apt-get install -y build-essential
 
@@ -16,7 +20,7 @@ function initialize_system() {
   symlink "${HOME}/.dotfiles/vim/vimrc" "${HOME}/.vimrc"
   symlink "${HOME}/.dotfiles/vim" "${HOME}/.vim"
 
-  # zsh profile
+  # bash profile
   symlink "${HOME}/.dotfiles/bash" "${HOME}/.zsh"
   symlink "${HOME}/.dotfiles/bash/start_vpn" "${HOME}/.start_vpn"
   symlink "${HOME}/.dotfiles/bash/.bash_profile" "${HOME}/.bash_profile"
@@ -30,12 +34,8 @@ function initialize_system() {
   symlink "${HOME}/.dotfiles/git/.gitmessage" "${HOME}/.gitmessage"
   symlink "${HOME}/.dotfiles/git/.git-templates" "${HOME}/.git-templates"
 
-  # vpn
-  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-  sudo apt-get install -y nodejs
-
-  # cron
-  symlink "${HOME}/.dotfiles/cron/reboot/" "/etc/cron.d/reboot"
+  # tools
+  symlink "${HOME}/.dotfiles/bin/*" "/usr/local/bin/*"
 
   # Remove broken symlinks
   clean_symlinks

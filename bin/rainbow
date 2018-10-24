@@ -1,0 +1,21 @@
+#!/bin/sh
+
+##### RAINBOW ##### (thanks lincoln)
+rainbow() {
+  default_offset=0
+  default_stride=3
+  offset="${1:-$default_offset}"
+  stride="${2:-$default_stride}"
+
+  # for all the lines in a window:
+  # for l in $(seq $(tput lines)); do
+
+  # for 7 lines in a window:
+  for l in $(seq 9); do
+    c=$(echo "define abs(i) {if (i < 0) return (-i); return (i) }; (abs(215-(${l}*${stride})+${offset}) % 215) + 16" | bc)
+    # x1B === ESC key (0x1B)
+    printf "\x1b[48;5;${c}m\n"
+  done
+  tput sgr0
+  printf "\n"
+}
