@@ -25,7 +25,6 @@ function initialize_system() {
 
   # bash profile
   symlink "${HOME}/.dotfiles/bash" "${HOME}/.zsh"
-  symlink "${HOME}/.dotfiles/bash/start_vpn" "${HOME}/.start_vpn"
   symlink "${HOME}/.dotfiles/bash/.bash_profile" "${HOME}/.bash_profile"
   symlink "${HOME}/.dotfiles/bash/.bashrc" "${HOME}/.bashrc"
 
