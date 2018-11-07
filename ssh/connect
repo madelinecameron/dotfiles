@@ -1,0 +1,13 @@
+qnzl="207.148.18.22"
+block="140.82.3.56"
+blog="45.76.164.11"
+
+function connect() {
+	ssh root@$1 -A -i ~/.ssh/id_rsa
+} 
+
+function ips() {
+	for site in qnzl block blog; do
+		echo $site
+	done
+}
