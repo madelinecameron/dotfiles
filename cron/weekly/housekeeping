@@ -1,0 +1,49 @@
+#!/bin/sh
+
+photos=$(find ~ -maxdepth 1 -type f -iname "*.jpg")
+gifs=$(find ~ -maxdepth 1 -type f -iname "*.gif")
+unneededFolders=$(find ~ -maxdepth 1 -type d -iname "[A-z]*" | ack '(\/home\/[A-z]+\/)(?!Documents|code|Music|Public|Dropbox|Downloads|Videos|Pictures|Desktop|Dump)')
+uneededFiles=$(find ~ -maxdepth 1 -type f -iname "*")
+
+mkdir -p ~/Dump
+for folder in $unneededFolders; do
+	mv $folder ~/Dump
+done
+
+for folder in $uneededFiles; do
+	mv $folder ~/Dump
+done
+
+for gif in $gifs; do
+	mv $gif ~/Dropbox/Pictures/memes
+done
+
+for photo in $photos; do
+	mv $photo ~/Dropbox/Pictures/ToOrganize/*
+done
+
+##################
+
+isos=$(find ~/Downloads -maxdepth 1 -type f -iname "*.iso")
+gifs=$(find ~/Downloads -maxdepth 1 -type f -iname "*.gif")
+photos=$(find ~/Downloads -maxdepth 1 -type f \( -name "*jpg" -o -name "*png" -o -name "*PNG" -o -name "*JPG" -o -name "*JPEG" \) | ack '(\/home\/[A-z]+\/Downloads\/(IMG|(20[0-9]{2})).*\.(jpg|JPG|jpeg))')
+
+mkdir -p ~/Downloads/ISO
+
+for photo in $photos; do
+	mv $photo ~/Dropbox/Pictures/ToOrganize
+done
+
+for iso in $isos; do
+	mv $iso ~/Downloads/ISO
+done
+
+for gif in $gifs; do
+	mv $gif ~/Dropbox/Pictures/memes
+done
+
+everythingElse=$(find ~/Downloads -maxdepth 1 -type f -iname "*")
+
+for thing in $everythingElse; do
+	mv $thing ~/Dump
+done
