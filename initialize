@@ -2,20 +2,7 @@
 
 function initialize_system() {
 
-  sudo apt-get install git-extras
-
-  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-  export NVM_DIR="$HOME/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
-  nvm install --lts
-  nvm use --lts
-
-  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-  ~/.fzf/install
-
-  sudo apt-get install -y build-essential
-
+  sudo apt-get install git-extras build-essential taskwarrior
   sudo snap install keepassxc
 
   # Vim
@@ -36,8 +23,21 @@ function initialize_system() {
   symlink "${HOME}/.dotfiles/git/.gitmessage" "${HOME}/.gitmessage"
   symlink "${HOME}/.dotfiles/git/.git-templates" "${HOME}/.git-templates"
 
+  # cron
+  symlink "${HOME}/.dotfiles/cron/weekly/*" "/etc/cron.weekly"
+
   # tools
   symlink "${HOME}/.dotfiles/bin/*" "/usr/local/bin/*"
+
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+  nvm install --lts
+  nvm use --lts
+
+  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+  ~/.fzf/install
 
   # Remove broken symlinks
   clean_symlinks
@@ -72,7 +72,7 @@ function symlink() {
   fi
 
   # Create symlink
-  ln -s $1 $2
+  sudo ln -s $1 $2
   echo -e "$1 --> $2"
 }
 
