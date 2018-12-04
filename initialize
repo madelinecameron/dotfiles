@@ -3,7 +3,6 @@
 function initialize_system() {
 
   sudo apt-get install git-extras build-essential taskwarrior
-  sudo snap install keepassxc
 
   # Vim
   echo -e "\nSetting symlinks..."
@@ -11,9 +10,8 @@ function initialize_system() {
   symlink "${HOME}/.dotfiles/vim" "${HOME}/.vim"
 
   # bash profile
-  symlink "${HOME}/.dotfiles/bash" "${HOME}/.zsh"
-  symlink "${HOME}/.dotfiles/bash/.bash_profile" "${HOME}/.bash_profile"
-  symlink "${HOME}/.dotfiles/bash/.bashrc" "${HOME}/.bashrc"
+  symlink "${HOME}/.dotfiles/bash" "${HOME}/.bash"
+  symlink "${HOME}/.dotfiles/bash/profile" "${HOME}/.bash_profile"
 
   # Tmux
   symlink "${HOME}/.dotfiles/tmux/tmux.conf" "${HOME}/.tmux.conf"
