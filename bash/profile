@@ -16,7 +16,7 @@ HISTSIZE=10000
 CLICOLOR=1
 
 # Vim key bindings
-set -o vi
+set -o vim
 
 export EDITOR TZ LANG HISTFILE HISTSIZE CLICOLOR
 
@@ -36,13 +36,9 @@ fi
 
 use_color=true
 
-# Grep colors
-# export GREP_OPTIONS='--color=auto'
-
 # Update path
 export PATH=$HOME/usr/local/sbin:$PATH
 export PATH=$HOME/bin:$PATH
-export PATH=$HOME/.bpkg/bin:"$PATH"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 source ~/.dotfiles/ssh/connect
