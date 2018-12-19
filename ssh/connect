@@ -1,11 +1,11 @@
-qnzl="173.199.118.203"
+qnzl="45.76.2.252"
 
 function connect() {
-	ssh root@$1 -A -i ~/.ssh/qnzl
-} 
+  ssh root@$1 -A -i ~/.ssh/qnzl
+}
 
 function ips() {
-	for site in qnzl; do
-		echo $site
-	done
+  for site in qnzl; do
+    echo $site
+  done
 }

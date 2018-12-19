@@ -1,0 +1,9 @@
+{
+    "settings": {
+        "key": "gdh2-gc2z-bbzx-0mkv",
+        "server": "rtmp://a.rtmp.youtube.com/live2",
+        "service": "YouTube / YouTube Gaming",
+        "show_all": false
+    },
+    "type": "rtmp_common"
+}

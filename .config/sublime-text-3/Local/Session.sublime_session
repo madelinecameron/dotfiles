@@ -1,0 +1,1782 @@
+{
+	"folder_history":
+	[
+		"/home/maddie/code/ara",
+		"/home/maddie/Dropbox/Data/qnzl",
+		"/home/maddie/Dropbox/Data/erica",
+		"/home/maddie/code/Qnzl",
+		"/home/maddie/code/Qnzl/Reddit",
+		"/home/maddie/littlstar",
+		"/home/maddie/.dotfiles",
+		"/home/maddie/code"
+	],
+	"last_version": 3176,
+	"last_window_id": 5,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"parse",
+						"parseComment"
+					],
+					[
+						"par",
+						"parsedReplies"
+					],
+					[
+						"comm",
+						"comments"
+					],
+					[
+						"sub",
+						"submission"
+					],
+					[
+						"thu",
+						"thumbnail_height"
+					],
+					[
+						"thumb",
+						"thumbnail_width"
+					],
+					[
+						"thum",
+						"thumbnail_height"
+					],
+					[
+						"client",
+						"clientSecret"
+					],
+					[
+						"subred",
+						"subreddits"
+					],
+					[
+						"content",
+						"contentDid"
+					],
+					[
+						"disc",
+						"discoveryKey"
+					],
+					[
+						"cus",
+						"customerId"
+					],
+					[
+						"msg",
+						"msgExpanded"
+					],
+					[
+						"isOn",
+						"isOnBlacklist"
+					],
+					[
+						"remove",
+						"removeFromList"
+					],
+					[
+						"white",
+						"whitelist"
+					],
+					[
+						"number",
+						"numberObjs"
+					],
+					[
+						"num",
+						"numberObjs"
+					],
+					[
+						"whiteli",
+						"whitelistIndex"
+					],
+					[
+						"mess",
+						"messages"
+					],
+					[
+						"media",
+						"mediaPromise"
+					],
+					[
+						"flex",
+						"flex-column"
+					],
+					[
+						"Number",
+						"NumberBlacklist"
+					],
+					[
+						"send",
+						"sendMessage"
+					],
+					[
+						"avai",
+						"availableNumbers"
+					],
+					[
+						"upd",
+						"updatePlan"
+					],
+					[
+						"chose",
+						"chosenNumber"
+					],
+					[
+						"current",
+						"currentUser"
+					],
+					[
+						"phone",
+						"phoneNumber"
+					],
+					[
+						"daily",
+						"dailyAmount"
+					],
+					[
+						"sele",
+						"selectedMainDishes"
+					],
+					[
+						"rece",
+						"recipeCount"
+					],
+					[
+						"recipe",
+						"recipeCount"
+					],
+					[
+						"reci",
+						"recipeCount"
+					],
+					[
+						"side",
+						"sideTwo"
+					],
+					[
+						"main",
+						"mainDish"
+					],
+					[
+						"subs",
+						"subscriptionItem"
+					],
+					[
+						"add",
+						"addressFilledIn"
+					],
+					[
+						"state",
+						"stateCode"
+					],
+					[
+						"twit",
+						"twitter_account"
+					],
+					[
+						"bill",
+						"billType"
+					],
+					[
+						"key",
+						"keyPair"
+					],
+					[
+						"public",
+						"publicKey"
+					],
+					[
+						"keyR",
+						"keyringOpts"
+					],
+					[
+						"feed",
+						"feedopts"
+					],
+					[
+						"dis",
+						"discoveryKey"
+					],
+					[
+						"reset",
+						"resetToken"
+					],
+					[
+						"se",
+						"secretKey"
+					],
+					[
+						"pub",
+						"publicKey"
+					],
+					[
+						"bais",
+						"basicItems"
+					],
+					[
+						"conf",
+						"confettiShower"
+					],
+					[
+						"sess",
+						"sessionData"
+					],
+					[
+						"exp",
+						"experimental"
+					],
+					[
+						"messa",
+						"messageParts"
+					],
+					[
+						"super",
+						"superhero"
+					],
+					[
+						"searc",
+						"searchTerm"
+					],
+					[
+						"classes",
+						"classesSplit"
+					],
+					[
+						"mediaG",
+						"mediaGroup"
+					],
+					[
+						"unp",
+						"unpackedRule"
+					],
+					[
+						"rule",
+						"ruleMatches"
+					],
+					[
+						"ing",
+						"ingredients"
+					],
+					[
+						"saveM",
+						"saveMenuBtn"
+					],
+					[
+						"base",
+						"baseObj"
+					],
+					[
+						"buil",
+						"builtMsg"
+					],
+					[
+						"find",
+						"findBestMenu"
+					],
+					[
+						"menu",
+						"menubuilder"
+					],
+					[
+						"black",
+						"blacklist"
+					],
+					[
+						"ingre",
+						"ingredientGuesses"
+					],
+					[
+						"MONGO",
+						"MONGO_URL"
+					],
+					[
+						"ingr",
+						"ingredientLimits"
+					],
+					[
+						"blackl",
+						"blacklistRecipe"
+					],
+					[
+						"usa",
+						"usagePercent"
+					],
+					[
+						"ids",
+						"ids"
+					],
+					[
+						"_find",
+						"_findProfitByIngredientUsage"
+					],
+					[
+						"comp",
+						"compoundCount"
+					],
+					[
+						"com",
+						"compoundCount"
+					],
+					[
+						"pro",
+						"profitedRecipe"
+					],
+					[
+						"profit",
+						"profit"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 150.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/maddie/code/Qnzl/Reddit/.profile",
+				"/home/maddie/code/Qnzl/Reddit/browser/views/subreddit.js",
+				"/home/maddie/code/Qnzl/Reddit/browser/views/privacypolicy.js",
+				"/home/maddie/code/Qnzl/Reddit/provision",
+				"/home/maddie/code/Qnzl/Reddit/deploy",
+				"/home/maddie/code/Qnzl/Reddit/browser/lib/router.js",
+				"/home/maddie/code/Qnzl/Reddit/server/index.js",
+				"/home/maddie/code/Qnzl/Reddit/server/routes/index.js",
+				"/home/maddie/code/Qnzl/Reddit/server/app.js",
+				"/home/maddie/code/Qnzl/Didnit/Scraper/index.js",
+				"/home/maddie/code/Qnzl/Reddit/browser/views/layout.js",
+				"/home/maddie/code/Qnzl/Reddit/public/index.html",
+				"/home/maddie/code/Qnzl/Reddit/infra/reddit.conf",
+				"/home/maddie/code/Qnzl/Reddit/infra/reddit",
+				"/home/maddie/code/Qnzl/Reddit/package.json",
+				"/home/maddie/code/Qnzl/Reddit/scripts/writeProfile",
+				"/home/maddie/code/Qnzl/Reddit/server/routes/user.js",
+				"/home/maddie/code/Qnzl/Template/infra/[app name].conf",
+				"/home/maddie/code/Qnzl/Template/server/routes/user.js",
+				"/home/maddie/code/Qnzl/Template/server/index.js",
+				"/home/maddie/code/Qnzl/Template/browser/lib/track.js",
+				"/home/maddie/code/Qnzl/Template/browser/views/privacypolicy.js",
+				"/home/maddie/code/Qnzl/Template/provision",
+				"/home/maddie/code/Qnzl/Template/package.json",
+				"/home/maddie/code/Qnzl/Template/scripts/startup",
+				"/home/maddie/code/Qnzl/Template/deploy",
+				"/home/maddie/code/Qnzl/Template/scripts/writeProfile",
+				"/home/maddie/code/Qnzl/Template/scripts/tackyer",
+				"/home/maddie/code/Qnzl/Template/infra/[app name]",
+				"/home/maddie/code/Qnzl/Template/infra/[app name]_http",
+				"/home/maddie/code/Qnzl/PhoneNum/public/css/index.css",
+				"/home/maddie/code/Qnzl/Snark/package.json",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/landing.js",
+				"/home/maddie/code/Qnzl/PhoneNum/public/index.html",
+				"/home/maddie/code/Qnzl/Template/browser/views/layout.js",
+				"/home/maddie/code/Qnzl/Template/browser/views/dashboard.js",
+				"/home/maddie/code/Qnzl/Template/.profile",
+				"/home/maddie/code/Qnzl/Template/public/index.html",
+				"/home/maddie/code/Qnzl/Template/public/img/.keep",
+				"/home/maddie/code/Qnzl/Template/marketing/hn",
+				"/home/maddie/code/Qnzl/Template/marketing/twitter",
+				"/home/maddie/code/Qnzl/Template/server/app.js",
+				"/home/maddie/code/Qnzl/Template/server/models/User.js",
+				"/home/maddie/.dotfiles/initialize",
+				"/home/maddie/.dotfiles/bash/.bashrc",
+				"/home/maddie/.dotfiles/ssh/connect",
+				"/home/maddie/.dotfiles/git/.gitconfig",
+				"/home/maddie/.dotfiles/bash/profile",
+				"/home/maddie/.dotfiles/cron/housekeeping",
+				"/home/maddie/code/Qnzl/SnarkCLI/src/snark",
+				"/home/maddie/code/Qnzl/SnarkCLI/package.json",
+				"/home/maddie/code/Qnzl/SnarkCLI/README.md",
+				"/home/maddie/code/Qnzl/PhoneNum/server/routes/numbers.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/number.js",
+				"/home/maddie/code/Qnzl/Snark/server/index.js",
+				"/home/maddie/code/Qnzl/Snark/server/app.js",
+				"/home/maddie/code/Qnzl/Snark/browser/views/landing.js",
+				"/home/maddie/code/Qnzl/SnarkCLI/bin/snark",
+				"/home/maddie/code/Qnzl/Snark/public/index.html",
+				"/home/maddie/code/Qnzl/Snark/browser/lib/router.js",
+				"/home/maddie/code/Qnzl/SnarkCLI/index.js",
+				"/home/maddie/code/Qnzl/Snark/scripts/tackyer.js",
+				"/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/browser/lib/router.js",
+				"/home/maddie/littlstar/ara-keyring-server/routes/1.0/index.js",
+				"/home/maddie/littlstar/ara-network-node-dcdn/package.json",
+				"/home/maddie/littlstar/ara-network-node-dcdn/dcdn.js",
+				"/home/maddie/littlstar/ara-network-node-dcdn/node_modules/ara-filesystem/storage.js",
+				"/home/maddie/littlstar/ara-network-node-dcdn/node_modules/ara-filesystem/create.js",
+				"/home/maddie/littlstar/ara-network-node-dcdn/node_modules/ara-contracts/registry.js",
+				"/home/maddie/littlstar/ara-network-node-dcdn/index.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/register.js",
+				"/home/maddie/code/Qnzl/Tube/browser/lib/findVideos.js",
+				"/home/maddie/code/Qnzl/Tube/public/search.xml",
+				"/home/maddie/code/Qnzl/PhoneNum/marketing/hn",
+				"/home/maddie/code/Qnzl/PhoneNum/server/routes/sms.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/sms.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/pricing.js",
+				"/home/maddie/code/Qnzl/PhoneNum/server/models/User.js",
+				"/home/maddie/code/Qnzl/PhoneNum/.profile",
+				"/home/maddie/code/Qnzl/PhoneNum/server/routes/user.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/activity.js",
+				"/home/maddie/code/Qnzl/PhoneNum/package.json",
+				"/home/maddie/code/Qnzl/PhoneNum/.gitlab.yml",
+				"/home/maddie/code/Qnzl/Giftionary/node_modules/thunky/index.js",
+				"/home/maddie/code/Qnzl/PhoneNum/public/css/tachy.css",
+				"/home/maddie/code/Qnzl/PhoneNum/server/routes/tree.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/layout.js",
+				"/home/maddie/code/Qnzl/PhoneNum/server/routes/incoming.js",
+				"/home/maddie/code/Qnzl/PhoneNum/server/app.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/dashboard.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/login.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/privacypolicy.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/unauthenticated/landing.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/createAccount.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/lib/router.js",
+				"/home/maddie/code/Qnzl/PhoneNum/marketing/twitter",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/public/index.html",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/lib/global.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/authenticated/dashboard.js",
+				"/home/maddie/code/Qnzl/PhoneNum/server/models/NumberBlacklist.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/.profile",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/server/routes/menu.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/menu.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/server/routes/user.js",
+				"/home/maddie/code/Qnzl/Budget/public/index.html",
+				"/home/maddie/code/Qnzl/Budget/public/css/imessage.css",
+				"/home/maddie/code/Qnzl/PhoneNum/server/index.js",
+				"/home/maddie/code/Qnzl/PhoneNum/public/css/imessage.css",
+				"/home/maddie/code/Qnzl/PhoneNum/server/routes/call.js",
+				"/home/maddie/code/Qnzl/12startups/server/routes/user.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/resetPwd.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/unauthenticated/register.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/unauthenticated/landing.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/unauthenticated/login.js",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/unauthenticated/pricing.js",
+				"/home/maddie/code/shipstreams.com/app/streamers.json",
+				"/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/public/index.html",
+				"/home/maddie/littlstar/lara/bin/larad",
+				"/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/browser/views/landing.js",
+				"/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/server/index.js",
+				"/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/public/css/index.css",
+				"/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/public/css/tachy.css",
+				"/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/browser/views/register.js",
+				"/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/server/app.js",
+				"/home/maddie/code/Qnzl/floodlight/browser/views/modules/signup.js",
+				"/home/maddie/code/Qnzl/floodlight/browser/views/modules/district.js",
+				"/home/maddie/code/Qnzl/floodlight/server/routes/congress.js",
+				"/home/maddie/code/Qnzl/floodlight/server/routes/user.js"
+			],
+			"find":
+			{
+				"height": 26.0
+			},
+			"find_in_files":
+			{
+				"height": 113.0,
+				"where_history":
+				[
+					"/home/maddie/code/Qnzl/Reddit",
+					"<current file>",
+					"/home/maddie/code/Qnzl/PhoneNum/browser",
+					"/home/maddie/code/Qnzl/PhoneNum/server,/home/maddie/code/Qnzl/PhoneNum/browser",
+					"/home/maddie/code/Qnzl/PhoneNum",
+					"<current file>",
+					"/home/maddie/code/Qnzl/",
+					"/home/maddie/code/Qnzl/PhoneNum/browser/views",
+					"/home/maddie/Qnzl/PhoneNum/browser/views",
+					"/home/maddie/littlstar/ara-filesystem",
+					"/home/maddie/littlstar/lara",
+					"/home/maddie/littlstar/ara-network",
+					"/home/maddie/littlstar/ara-filesystem",
+					"<current file>",
+					"/home/maddie/code/Qnzl/PantryPlan/Website/server/routes",
+					"/home/maddie/code/Qnzl/PantryPlan/Website/browser",
+					"<current file>"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"subreddit",
+					"User",
+					"207.148.18.22",
+					"[app name]",
+					"tube",
+					"1",
+					"fzf",
+					"options",
+					"onBlockSite",
+					"getProxyAddress",
+					"ethify",
+					"getProxyAddress",
+					"proxyExists",
+					"_createMultidrive",
+					"defaultStorage",
+					"proxy",
+					"console.log",
+					"join",
+					"$createAFS",
+					"key",
+					"store",
+					"loadSaved",
+					"this.did",
+					"blacklistIndex",
+					"false",
+					"removeFromWhitelist",
+					"addToWhitelist",
+					"MOUNT",
+					"screen",
+					",",
+					"$(",
+					".tl",
+					"console.log",
+					"alice",
+					"',\n",
+					"state.numbers",
+					"$unset",
+					"User.update",
+					"req.session",
+					"req.session.",
+					"error",
+					"errorMsg",
+					"error\\s",
+					"error",
+					"error\\S",
+					"error\\s",
+					"createPartition",
+					"tada",
+					"etcPath",
+					"getDocumentKeyHex",
+					"derive",
+					"GET KEYRING",
+					"get",
+					"keyring.get",
+					"keyrings",
+					"keyrings.root",
+					"rc.network.keyrings.root",
+					"keyrings",
+					"console.log(\"PUBLIC:",
+					"state.win",
+					"prof",
+					"profile",
+					"conf",
+					">>>>",
+					"\",\n",
+					"oncreate",
+					"mnemonic",
+					"dn",
+					".id",
+					".)",
+					"fs",
+					"hero",
+					"User",
+					"console.log",
+					"Recipe",
+					"this.params",
+					"id",
+					"req.session",
+					"ingredientGuesses",
+					"console.log",
+					"this.limits",
+					"limits",
+					"usedIngredients",
+					"_findProfitByIngredientUsage",
+					"findBestMenu",
+					"req.session.user",
+					"findBestMenu",
+					"PROFIT",
+					"console.log",
+					"_checkFit",
+					"toCups",
+					"_id",
+					"\\-",
+					"and",
+					"extra",
+					"tsp",
+					"crushed",
+					"tsp",
+					"\\-",
+					".*",
+					"\\-",
+					"pitted and quartered kalamata olives",
+					"measurementWeight"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"173.199.118.203",
+					"reddit",
+					"snark",
+					"woman",
+					"errorMsg",
+					"opts",
+					"debug",
+					"id"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 40.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 1276.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 314.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"num",
+						"numbersFrom"
+					],
+					[
+						"create",
+						"createAccountBtn"
+					],
+					[
+						"vapid",
+						"vapidPublicKey"
+					],
+					[
+						"VAPI",
+						"VAPID_PUBLIC_KEY"
+					],
+					[
+						"call",
+						"callIncoming"
+					],
+					[
+						"phone",
+						"phoneprivacy"
+					],
+					[
+						"isOn",
+						"isOnWhitelist"
+					],
+					[
+						"black",
+						"blacklistedRecipes"
+					],
+					[
+						"nu",
+						"numberOfIngredients"
+					],
+					[
+						"bla",
+						"blacklistedRecipes"
+					],
+					[
+						"ing",
+						"ingredientLimits"
+					],
+					[
+						"status",
+						"statusCode"
+					],
+					[
+						"wip",
+						"wipAPIKey"
+					],
+					[
+						"confi",
+						"configLines"
+					],
+					[
+						"div",
+						"divRegex"
+					],
+					[
+						"kno",
+						"knownDiscoveryKeys"
+					],
+					[
+						"discov",
+						"discoveryKey"
+					],
+					[
+						"data",
+						"datapoints"
+					],
+					[
+						"dat",
+						"data"
+					],
+					[
+						"goTo",
+						"goToInstructions"
+					],
+					[
+						"track",
+						"trackPageview"
+					],
+					[
+						"parse",
+						"parseComment"
+					],
+					[
+						"par",
+						"parsedReplies"
+					],
+					[
+						"comm",
+						"comments"
+					],
+					[
+						"sub",
+						"submission"
+					],
+					[
+						"thu",
+						"thumbnail_height"
+					],
+					[
+						"thumb",
+						"thumbnail_width"
+					],
+					[
+						"thum",
+						"thumbnail_height"
+					],
+					[
+						"client",
+						"clientSecret"
+					],
+					[
+						"subred",
+						"subreddits"
+					],
+					[
+						"content",
+						"contentDid"
+					],
+					[
+						"disc",
+						"discoveryKey"
+					],
+					[
+						"cus",
+						"customerId"
+					],
+					[
+						"msg",
+						"msgExpanded"
+					],
+					[
+						"remove",
+						"removeFromList"
+					],
+					[
+						"white",
+						"whitelist"
+					],
+					[
+						"number",
+						"numberObjs"
+					],
+					[
+						"whiteli",
+						"whitelistIndex"
+					],
+					[
+						"mess",
+						"messages"
+					],
+					[
+						"media",
+						"mediaPromise"
+					],
+					[
+						"flex",
+						"flex-column"
+					],
+					[
+						"Number",
+						"NumberBlacklist"
+					],
+					[
+						"send",
+						"sendMessage"
+					],
+					[
+						"avai",
+						"availableNumbers"
+					],
+					[
+						"upd",
+						"updatePlan"
+					],
+					[
+						"chose",
+						"chosenNumber"
+					],
+					[
+						"current",
+						"currentUser"
+					],
+					[
+						"daily",
+						"dailyAmount"
+					],
+					[
+						"sele",
+						"selectedMainDishes"
+					],
+					[
+						"rece",
+						"recipeCount"
+					],
+					[
+						"recipe",
+						"recipeCount"
+					],
+					[
+						"reci",
+						"recipeCount"
+					],
+					[
+						"side",
+						"sideTwo"
+					],
+					[
+						"main",
+						"mainDish"
+					],
+					[
+						"subs",
+						"subscriptionItem"
+					],
+					[
+						"add",
+						"addressFilledIn"
+					],
+					[
+						"state",
+						"stateCode"
+					],
+					[
+						"twit",
+						"twitter_account"
+					],
+					[
+						"bill",
+						"billType"
+					],
+					[
+						"key",
+						"keyPair"
+					],
+					[
+						"public",
+						"publicKey"
+					],
+					[
+						"keyR",
+						"keyringOpts"
+					],
+					[
+						"feed",
+						"feedopts"
+					],
+					[
+						"dis",
+						"discoveryKey"
+					],
+					[
+						"reset",
+						"resetToken"
+					],
+					[
+						"se",
+						"secretKey"
+					],
+					[
+						"pub",
+						"publicKey"
+					],
+					[
+						"bais",
+						"basicItems"
+					],
+					[
+						"conf",
+						"confettiShower"
+					],
+					[
+						"sess",
+						"sessionData"
+					],
+					[
+						"exp",
+						"experimental"
+					],
+					[
+						"messa",
+						"messageParts"
+					],
+					[
+						"super",
+						"superhero"
+					],
+					[
+						"searc",
+						"searchTerm"
+					],
+					[
+						"classes",
+						"classesSplit"
+					],
+					[
+						"mediaG",
+						"mediaGroup"
+					],
+					[
+						"unp",
+						"unpackedRule"
+					],
+					[
+						"rule",
+						"ruleMatches"
+					],
+					[
+						"saveM",
+						"saveMenuBtn"
+					],
+					[
+						"base",
+						"baseObj"
+					],
+					[
+						"buil",
+						"builtMsg"
+					],
+					[
+						"find",
+						"findBestMenu"
+					],
+					[
+						"menu",
+						"menubuilder"
+					],
+					[
+						"ingre",
+						"ingredientGuesses"
+					],
+					[
+						"MONGO",
+						"MONGO_URL"
+					],
+					[
+						"ingr",
+						"ingredientLimits"
+					],
+					[
+						"blackl",
+						"blacklistRecipe"
+					],
+					[
+						"usa",
+						"usagePercent"
+					],
+					[
+						"ids",
+						"ids"
+					],
+					[
+						"_find",
+						"_findProfitByIngredientUsage"
+					],
+					[
+						"comp",
+						"compoundCount"
+					],
+					[
+						"com",
+						"compoundCount"
+					],
+					[
+						"pro",
+						"profitedRecipe"
+					],
+					[
+						"profit",
+						"profit"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/browser/lib/router.js",
+					"settings":
+					{
+						"buffer_size": 101,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/basicPantry.js",
+					"settings":
+					{
+						"buffer_size": 2301,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/basicItem.js",
+					"settings":
+					{
+						"buffer_size": 4006,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/browser/views/landing.js",
+					"settings":
+					{
+						"buffer_size": 5608,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "# Set colorful PS1 only on colorful terminals. # dircolors --print-database\nuses its own built-in database # instead of using /etc/DIR_COLORS.  Try to use\nthe external file # first to take advantage of user additions.  Use internal\nbash # globbing instead of external grep binary.\nsafe_term=${TERM//[^[:alnum:]]/?}   # sanitize TERM match_lhs=\"\" [[ -f\n~/.dir_colors   ]] && match_lhs=\"${match_lhs}$(<~/.dir_colors)\" [[ -f\n/etc/DIR_COLORS ]] && match_lhs=\"${match_lhs}$(</etc/DIR_COLORS)\" [[ -z\n${match_lhs}    ]] \\   && type -P dircolors >/dev/null \\   &&\nmatch_lhs=$(dircolors --print-database) [[ $'\\n'${match_lhs} == *$'\\n'\"TERM\n\"${safe_term}* ]] && use_color=true\n\nif ${use_color} ; then\n  # Enable colors for ls, etc.  Prefer ~/.dir_colors #64489\n  if type -P dircolors >/dev/null ; then\n    if [[ -f ~/.dir_colors ]] ; then\n      eval $(dircolors -b ~/.dir_colors)\n    elif [[ -f /etc/DIR_COLORS ]] ; then\n      eval $(dircolors -b /etc/DIR_COLORS)\n    fi\n  fi\n\n  if [[ ${EUID} == 0 ]] ; then\n    PS1='\\[\\033[01;31m\\][\\h\\[\\033[01;36m\\] \\W\\[\\033[01;31m\\]]\\$\\[\\033[00m\\] '\n  else\n    PS1='\\[\\033[01;32m\\][\\u@\\h\\[\\033[01;37m\\] \\W\\[\\033[01;32m\\]]\\$\\[\\033[00m\\] '\n  fi\n\n  alias ls='ls --color=auto'\n  alias grep='grep --colour=auto'\n  alias egrep='egrep --colour=auto'\n  alias fgrep='fgrep --colour=auto'\nelse\n  if [[ ${EUID} == 0 ]] ; then\n    # show root@ when we don't have colors\n    PS1='\\u@\\h \\W \\$ '\n  else\n    PS1='\\u@\\h \\w \\$ '\n  fi\nfi\n\nunset use_color safe_term match_lhs sh\n",
+					"settings":
+					{
+						"buffer_size": 1486,
+						"line_ending": "Unix",
+						"name": "# Set colorful PS1 only on colorful terminals. # d"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 150.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/maddie/code/Qnzl",
+				"/home/maddie/code/Qnzl/PantryPlan",
+				"/home/maddie/code/Qnzl/PantryPlan/MealOfFortune",
+				"/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/browser",
+				"/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/browser/lib",
+				"/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/browser/views"
+			],
+			"file_history":
+			[
+				"/home/maddie/code/Qnzl/PhoneNum/Website/public/css/index.css",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/browser/views/dashboard.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/browser/views/number.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/browser/views/login.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/browser/views/landing.js",
+				"/home/maddie/code/Qnzl/tumblrdump.js",
+				"/home/maddie/backup_tumblr/tumblr/subndiapers/posts/13/133025986822/info.json",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/server/routes/sms.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/browser/views/sms.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/public/index.html",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/package-lock.json",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/server/index.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/browser/views/layout.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/public/css/tachy.css",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/infra/phoneprivacy.conf",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/browser/views/activity.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/browser/views/register.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/server/app.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/server/routes/user.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/public/register.html",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/public/index.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/package.json",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/infra/phoneprivacy",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/scripts/writeProfile",
+				"/home/maddie/code/Qnzl/Template/scripts/writeProfile",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/.profile",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/deploy",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/server/routes/incoming.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/.gitlab-ci.yml",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/provision",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/.gitlab.yml",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/browser/lib/global.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/server/routes/notifications.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/public/service-worker.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/server/models/User.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/public/manifest.json",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/public/notifications.js",
+				"/home/maddie/code/ara/dcdn/dcdn.js",
+				"/home/maddie/code/ara/dcdn/blockchain.js",
+				"/home/maddie/code/ara/dcdn/test/index.js",
+				"/home/maddie/code/ara/dcdn-test-project/browser/views/landing.js",
+				"/home/maddie/code/ara/dcdn-test-project/browser/views/video.js",
+				"/home/maddie/code/ara/dcdn-http-gateway/config/cli-descriptions.js",
+				"/home/maddie/2fa.js",
+				"/home/maddie/code/2fa.js",
+				"/home/maddie/code/ara/dcdn-http-gateway/http.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/server/routes/tree.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/server/routes/numbers.js",
+				"/home/maddie/code/Qnzl/PhoneNum/Website/browser/views/pricing.js",
+				"/home/maddie/code/Qnzl/PantryPlan/MKP/index.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/unauthenticated/landing.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/onboarding/executiveChef.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/onboarding/lineCook.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/onboarding/sousChef.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/basicPantry.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/basicItem.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/pantry.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/menu.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/createAccount.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/scripts/tackyer",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/public/css/tachy.css",
+				"/home/maddie/code/Qnzl/PantryPlan/Builder/index.js",
+				"/home/maddie/code/Qnzl/wip-taskwarrior/package.json",
+				"/home/maddie/code/Qnzl/wip-taskwarrior/on-add",
+				"/home/maddie/code/Qnzl/wip-taskwarrior/README.md",
+				"/home/maddie/code/Qnzl/PhoneNum/browser/views/landing.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/scripts/write-profile",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/.profile",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/package.json",
+				"/home/maddie/code/Qnzl/PantryPlan/Builder/package.json",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/server/routes/menu.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/public/index.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/Makefile",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/authenticated/layout.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/authenticated/dashboard.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/item.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/recipe.js",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/public/img/times-red.svg",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/public/index.html",
+				"/home/maddie/code/Qnzl/PantryPlan/Website/public/css/index.css",
+				"/home/maddie/code/Qnzl/wip-taskwarrior/on-modify",
+				"/home/maddie/code/Qnzl/Reddit/server/routes/index.js",
+				"/home/maddie/code/Qnzl/Reddit/public/index.html",
+				"/home/maddie/code/Qnzl/Reddit/browser/views/post.js",
+				"/home/maddie/code/Qnzl/Reddit/browser/views/landing.js",
+				"/home/maddie/code/ara/dcdn/scripts/get-private-key",
+				"/home/maddie/code/ara/ara-filesystem/commit.js",
+				"/home/maddie/code/ara/ara-filesystem/node_modules/ara-contracts/registry.js",
+				"/home/maddie/code/ara/ara-contracts/bin/act-transfer",
+				"/home/maddie/code/ara/dcdn/node_modules/ara-filesystem/create.js",
+				"/home/maddie/code/ara/ara-filesystem/lib/program.js",
+				"/home/maddie/code/ara/ara-filesystem/node_modules/ara-util/web3/tx.js",
+				"/home/maddie/code/ara/ara-util/web3/tx.js",
+				"/home/maddie/code/Qnzl/wip-taskwarrior/bin/wip-sync",
+				"/home/maddie/code/Qnzl/wip-taskwarrior/on-modify.js",
+				"/home/maddie/code/Qnzl/wip-taskwarrior/on-launch.js",
+				"/home/maddie/code/Qnzl/wip-taskwarrior/on-add.js",
+				"/home/maddie/code/Qnzl/Reddit/browser/views/subreddit.js",
+				"/home/maddie/code/Qnzl/mindful-loading/messages.js",
+				"/home/maddie/code/Qnzl/Reddit/public/css/index.css",
+				"/home/maddie/code/Qnzl/mindful-loading/index.js",
+				"/home/maddie/code/Qnzl/Reddit/browser/lib/global.js",
+				"/home/maddie/code/ara/genesis.json",
+				"/home/maddie/code/ara/dcdn/node_modules/ara-identity/resolve.js",
+				"/home/maddie/code/ara/dcdn/node_modules/ara-identity/node_modules/ara-network/keys.js",
+				"/home/maddie/code/ara/dcdn/node_modules/ara-network/keys.js",
+				"/home/maddie/.ararc",
+				"/home/maddie/Dropbox/Data/qnzl/post.hbs",
+				"/home/maddie/Dropbox/Data/qnzl/page.hbs",
+				"/home/maddie/Dropbox/Data/qnzl/default.hbs",
+				"/home/maddie/code/Qnzl/Analytics/browser/views/landing.js",
+				"/home/maddie/code/Qnzl/Analytics/deploy",
+				"/home/maddie/code/Qnzl/Analytics/public/index.html",
+				"/home/maddie/Dropbox/Data/erica/default.hbs",
+				"/home/maddie/Dropbox/Data/erica/package.json",
+				"/home/maddie/Dropbox/Data/erica/post.hbs",
+				"/home/maddie/Dropbox/Data/erica/page.hbs",
+				"/home/maddie/Dropbox/Data/erica/index.hbs",
+				"/home/maddie/Dropbox/Data/erica/partials/loop.hbs",
+				"/home/maddie/Dropbox/Data/erica/partials/pagination.hbs",
+				"/home/maddie/Dropbox/Data/erica/partials/sidebar.hbs",
+				"/home/maddie/littlstar-task-sync",
+				"/home/maddie/code/Qnzl/Analytics/public/css/index.css",
+				"/home/maddie/code/Qnzl/Analytics/browser/views/noauth.js",
+				"/home/maddie/code/Qnzl/Analytics/server/app.js",
+				"/home/maddie/code/Qnzl/Analytics/browser/views/graph.js",
+				"/home/maddie/code/Qnzl/Analytics/server/routes/index.js",
+				"/home/maddie/code/Qnzl/Analytics/server/models/Datapoint.js"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 113.0,
+				"where_history":
+				[
+					"<current file>",
+					"/home/maddie/code/Qnzl/Reddit/browser/views",
+					"<current file>",
+					"/home/maddie/code/Qnzl/Reddit",
+					"<current file>",
+					"/home/maddie/code/Qnzl/PhoneNum/browser",
+					"/home/maddie/code/Qnzl/PhoneNum/server,/home/maddie/code/Qnzl/PhoneNum/browser",
+					"/home/maddie/code/Qnzl/PhoneNum",
+					"<current file>",
+					"/home/maddie/code/Qnzl/",
+					"/home/maddie/code/Qnzl/PhoneNum/browser/views",
+					"/home/maddie/Qnzl/PhoneNum/browser/views",
+					"/home/maddie/littlstar/ara-filesystem",
+					"/home/maddie/littlstar/lara",
+					"/home/maddie/littlstar/ara-network",
+					"/home/maddie/littlstar/ara-filesystem",
+					"<current file>",
+					"/home/maddie/code/Qnzl/PantryPlan/Website/server/routes",
+					"/home/maddie/code/Qnzl/PantryPlan/Website/browser",
+					"<current file>"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"addTo",
+					"text",
+					"<<<",
+					"screen",
+					".w1",
+					"screen",
+					"screen\\",
+					"screen",
+					"@media",
+					"moment",
+					"superagent",
+					"@media",
+					"[app name]",
+					"vapidKey",
+					"WebAuthn",
+					"img class=\"w2 h2\"",
+					"screen",
+					"console.log",
+					"EE:",
+					"ingredientUsage",
+					"findBestMenu",
+					"<img src=\"/img/info-circle.svg\" class=\"tooltip pl1 mh1 mw1\"",
+					"<img src=\"/img/info-circle.svg\" class=\"tooltip pl1\"",
+					"img",
+					"stdin",
+					"html",
+					"_createMultidrive",
+					"hasStaged",
+					"deployProxy",
+					"sendTransaction",
+					"_send",
+					"deployProxy",
+					"new Error",
+					"proxyExists",
+					"console.log",
+					"htmlEscape",
+					"sidebar",
+					"(\\-\\-\\s(enable))",
+					"(\\-\\s(enable))",
+					"- enable",
+					"—",
+					"— ",
+					"—",
+					"(—\\s) ",
+					"(\\—\\s) ",
+					"— ",
+					"—",
+					"state.user",
+					"d.",
+					"vars",
+					"getData",
+					"phone",
+					"setCookie",
+					"findTrackerUrl",
+					"url",
+					"trackP",
+					"set",
+					"trackPageview",
+					"commands[c]",
+					"window.qnzl",
+					"commands",
+					"for",
+					"trackPageview",
+					"[app name]",
+					"] =",
+					"window.qnzl",
+					"for",
+					"[app name]",
+					"reddit",
+					"queue",
+					"+",
+					";",
+					"fathom",
+					"subreddit",
+					"User",
+					"207.148.18.22",
+					"[app name]",
+					"tube",
+					"1",
+					"fzf",
+					"options",
+					"onBlockSite",
+					"getProxyAddress",
+					"ethify",
+					"getProxyAddress",
+					"proxyExists",
+					"_createMultidrive",
+					"defaultStorage",
+					"proxy",
+					"console.log",
+					"join",
+					"$createAFS",
+					"key",
+					"store",
+					"loadSaved",
+					"this.did",
+					"blacklistIndex",
+					"false",
+					"removeFromWhitelist",
+					"addToWhitelist",
+					"MOUNT",
+					"screen",
+					",",
+					"$(",
+					".tl",
+					"console.log",
+					"alice",
+					"',\n",
+					"state.numbers",
+					"$unset",
+					"User.update",
+					"req.session",
+					"req.session.",
+					"error",
+					"errorMsg",
+					"error\\s",
+					"error",
+					"error\\S",
+					"error\\s",
+					"createPartition",
+					"tada",
+					"etcPath",
+					"getDocumentKeyHex",
+					"derive",
+					"GET KEYRING",
+					"get",
+					"keyring.get",
+					"keyrings"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"phoneprivacy",
+					"img class=\"w1 h1\"",
+					"<img src=\"/img/info-circle.svg\" class=\"tooltip pl1 h1 w1\"",
+					"<img src=\"/img/info-circle.svg\" class=\"tooltip pl1 mh1 mw1\"",
+					"--enable",
+					"--",
+					"analytics",
+					",",
+					"analytics",
+					"",
+					"qnzl",
+					"173.199.118.203",
+					"reddit",
+					"snark",
+					"woman",
+					"errorMsg",
+					"opts",
+					"debug",
+					"id"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/maddie/code/Qnzl"
+				},
+				{
+					"path": "/home/maddie/code/ara"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 4,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/browser/lib/router.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 101,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										101,
+										101
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/basicPantry.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2301,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1223,
+										1223
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 561.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/maddie/code/Qnzl/PantryPlan/Website/browser/views/modules/basicItem.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4006,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3114,
+										3114
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1224.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/maddie/code/Qnzl/PantryPlan/MealOfFortune/browser/views/landing.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5608,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										399,
+										399
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1486,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										667,
+										667
+									]
+								],
+								"settings":
+								{
+									"auto_name": "# Set colorful PS1 only on colorful terminals. # d",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 40.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,0,0,3840,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 1276.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 209.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 5,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

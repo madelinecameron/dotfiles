@@ -1,0 +1,74 @@
+! ------------------------------------------------------------------------------
+! Import Colour from ~/.xrdb
+! ------------------------------------------------------------------------------
+
+#include ".xrdb/color/eighties"
+##include ".xrdb/rofi/nord"
+##include ".xrdb/dmenu/nord"
+##include ".xrdb/fonts/tewi"
+
+! ------------------------------------------------------------------------------
+! URxvt configs
+! ------------------------------------------------------------------------------
+
+URxvt*depth: 32
+URxvt*foreground:       #FFFFFF
+URxvt*background:       #000000
+
+URxvt.geometry:         72x18
+URxvt*letterSpace:      0
+URxvt.lineSpace:        0
+URxvt*internalBorder:   0
+URxvt*externalBorder:   15
+URxvt*saveLines:        10000
+URxvt*termName:         rxvt-256color
+URxvt*iso14755:         false
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:  false
+URxvt.perl-ext-common:  default,clipboard,url-select,keyboard-select
+URxvt.copyCommand:      xclip -i -selection clipboard
+URxvt.pasteCommand:     xclip -o -selection clipboard
+URxvt.keysym.C-c:       perl:clipboard:copy
+URxvt.keysym.C-v:       perl:clipboard:paste
+URxvt.keysym.M-C-v:     perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape:  perl:keyboard-select:activate
+URxvt.keysym.Shift-Up:  command:\033]720;1\007
+URxvt.keysym.Shift-Down:command:\033]721;1\007
+URxvt.keysym.M-s:       perl:keyboard-select:search
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.urlLauncher:      firefox
+URxvt.underlineURLs:    true
+URxvt.urlButton:        1
+URxvt*buffered:         false
+URxvt.urgentOnBell:     true
+URxvt.font:             xft:UbuntuMono-R:size=12
+
+! ------------------------------------------------------------------------------
+! Xft Font Configuration
+! ------------------------------------------------------------------------------
+
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+##foreground   #EAEAEA
+##background   #121212
+color0:   #000000
+color8:   #4D4D4D
+color1:   #FF5555
+color9:   #FF6E67
+color2:   #50FA7B
+color10:  #5AF78E
+color3:   #F1FA8C
+color11:  #F4F99D
+color4:   #BD93F9
+color12:  #CAA9FA
+color5:   #FF79C6
+color13:  #FF92D0
+color6:   #8BE9FD
+color14:  #9AEDFE
+color7:   #BFBFBF
+color15: #E6E6E6

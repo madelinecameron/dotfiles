@@ -1,0 +1,496 @@
+10:28:16 PM.853: CPU Name: Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz
+10:28:16 PM.853: CPU Speed: 3294.216MHz
+10:28:16 PM.853: Physical Cores: 4, Logical Cores: 4
+10:28:16 PM.853: Physical Memory: 15988MB Total, 1402MB Free
+10:28:16 PM.853: Kernel Version: Linux 4.15.0-39-generic
+10:28:16 PM.853: Distribution: "Ubuntu" "18.04"
+10:28:16 PM.854: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.19.6
+10:28:16 PM.854: Portable mode: false
+10:28:16 PM.869: OBS 22.0.2 (linux)
+10:28:16 PM.869: ---------------------------------
+10:28:16 PM.869: ---------------------------------
+10:28:16 PM.869: audio settings reset:
+10:28:16 PM.869: 	samples per sec: 44100
+10:28:16 PM.869: 	speakers:        2
+10:28:16 PM.876: ---------------------------------
+10:28:16 PM.876: Initializing OpenGL...
+10:28:16 PM.930: Loading up OpenGL on adapter nouveau NV134
+10:28:16 PM.930: OpenGL loaded successfully, version 4.3 (Core Profile) Mesa 18.0.5, shading language 4.30
+10:28:16 PM.947: ---------------------------------
+10:28:16 PM.947: video settings reset:
+10:28:16 PM.947: 	base resolution:   1920x1080
+10:28:16 PM.947: 	output resolution: 1280x720
+10:28:16 PM.947: 	downscale filter:  Bicubic
+10:28:16 PM.947: 	fps:               60/1
+10:28:16 PM.947: 	format:            NV12
+10:28:16 PM.947: 	YUV mode:          601/Partial
+10:28:16 PM.947: Audio monitoring device:
+10:28:16 PM.947: 	name: Default
+10:28:16 PM.947: 	id: default
+10:28:16 PM.947: ---------------------------------
+10:28:17 PM.029: No blackmagic support
+10:28:17 PM.049: NVENC supported
+10:28:17 PM.058: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+10:28:17 PM.058: 
+10:28:17 PM.058: Couldn't find VLC installation, VLC video source disabled
+10:28:17 PM.059: ---------------------------------
+10:28:17 PM.059:   Loaded Modules:
+10:28:17 PM.059:     libobs-linuxbrowser.so
+10:28:17 PM.059:     vlc-video.so
+10:28:17 PM.059:     text-freetype2.so
+10:28:17 PM.059:     rtmp-services.so
+10:28:17 PM.059:     obs-x264.so
+10:28:17 PM.059:     obs-transitions.so
+10:28:17 PM.059:     obs-outputs.so
+10:28:17 PM.059:     obs-libfdk.so
+10:28:17 PM.059:     obs-filters.so
+10:28:17 PM.059:     obs-ffmpeg.so
+10:28:17 PM.059:     linux-v4l2.so
+10:28:17 PM.059:     linux-pulseaudio.so
+10:28:17 PM.059:     linux-jack.so
+10:28:17 PM.059:     linux-decklink.so
+10:28:17 PM.059:     linux-capture.so
+10:28:17 PM.059:     linux-alsa.so
+10:28:17 PM.059:     image-source.so
+10:28:17 PM.059:     frontend-tools.so
+10:28:17 PM.059: ---------------------------------
+10:28:17 PM.059: ==== Startup complete ===============================================
+10:28:17 PM.062: All scene data cleared
+10:28:17 PM.062: ------------------------------------------------
+10:28:17 PM.064: pulse-input: Server name: 'pulseaudio 11.1'
+10:28:17 PM.064: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+10:28:17 PM.064: pulse-input: Started recording from 'alsa_output.usb-Blue_Microphones_Yeti_Stereo_Microphone_REV8-00.analog-stereo.monitor'
+10:28:17 PM.066: pulse-input: Server name: 'pulseaudio 11.1'
+10:28:17 PM.069: pulse-input: Audio format: s16le, 32000 Hz, 2 channels
+10:28:17 PM.070: pulse-input: Started recording from 'alsa_input.usb-046d_HD_Pro_Webcam_C920_D53C89AF-02.analog-stereo'
+10:28:17 PM.083: xcompcap: [window-capture: 'Tasks'] update settings:
+10:28:17 PM.083: 	title: Terminal
+10:28:17 PM.083: 	class: gnome-terminal-server
+10:28:17 PM.124: xcompcap: [window-capture: 'Stream'] update settings:
+10:28:17 PM.124: 	title: Building ffmpeg and OBS with NVIDIA Encoding on Ubuntu 16.04 LTS. - Mozilla Firefox
+10:28:17 PM.124: 	class: Navigator
+10:28:17 PM.127: [Media Source 'Chat Underlay']: settings:
+10:28:17 PM.127: 	input:                   /home/maddie/Dropbox/Data/Uplink - Overlays - Nerd or Die/Supporter Bars/Stack/Uplink_SupporterBar_Stack.webm
+10:28:17 PM.127: 	input_format:            (null)
+10:28:17 PM.127: 	speed:                   100
+10:28:17 PM.127: 	is_looping:              yes
+10:28:17 PM.127: 	is_hw_decoding:          no
+10:28:17 PM.127: 	is_clear_on_media_end:   yes
+10:28:17 PM.127: 	restart_on_activate:     yes
+10:28:17 PM.127: 	close_when_inactive:     no
+10:28:17 PM.130: [Media Source 'Ending Media']: settings:
+10:28:17 PM.130: 	input:                   /home/maddie/Dropbox/Data/Uplink - Overlays - Nerd or Die/Screens/Uplink_Stream_Ending.mp4
+10:28:17 PM.130: 	input_format:            (null)
+10:28:17 PM.130: 	speed:                   100
+10:28:17 PM.130: 	is_looping:              no
+10:28:17 PM.130: 	is_hw_decoding:          no
+10:28:17 PM.130: 	is_clear_on_media_end:   yes
+10:28:17 PM.130: 	restart_on_activate:     yes
+10:28:17 PM.130: 	close_when_inactive:     no
+10:28:17 PM.130: [Media Source 'Blank Media']: settings:
+10:28:17 PM.130: 	input:                   /home/maddie/Dropbox/Data/Uplink - Overlays - Nerd or Die/Screens/Uplink_Stream_Blank.mp4
+10:28:17 PM.130: 	input_format:            (null)
+10:28:17 PM.130: 	speed:                   100
+10:28:17 PM.130: 	is_looping:              yes
+10:28:17 PM.130: 	is_hw_decoding:          no
+10:28:17 PM.130: 	is_clear_on_media_end:   yes
+10:28:17 PM.130: 	restart_on_activate:     yes
+10:28:17 PM.130: 	close_when_inactive:     no
+10:28:17 PM.131: [Media Source 'Starting Media']: settings:
+10:28:17 PM.131: 	input:                   /home/maddie/Dropbox/Data/Uplink - Overlays - Nerd or Die/Screens/Uplink_Stream_Starting.mp4
+10:28:17 PM.131: 	input_format:            (null)
+10:28:17 PM.131: 	speed:                   100
+10:28:17 PM.131: 	is_looping:              yes
+10:28:17 PM.131: 	is_hw_decoding:          no
+10:28:17 PM.131: 	is_clear_on_media_end:   yes
+10:28:17 PM.131: 	restart_on_activate:     yes
+10:28:17 PM.131: 	close_when_inactive:     no
+10:28:17 PM.134: [Media Source 'BRB Media']: settings:
+10:28:17 PM.134: 	input:                   /home/maddie/Dropbox/Data/Uplink - Overlays - Nerd or Die/Screens/Uplink_Stream_BRB.mp4
+10:28:17 PM.134: 	input_format:            (null)
+10:28:17 PM.134: 	speed:                   100
+10:28:17 PM.134: 	is_looping:              yes
+10:28:17 PM.134: 	is_hw_decoding:          no
+10:28:17 PM.134: 	is_clear_on_media_end:   yes
+10:28:17 PM.134: 	restart_on_activate:     yes
+10:28:17 PM.134: 	close_when_inactive:     no
+10:28:17 PM.134: [Media Source 'WebcamOverlay']: settings:
+10:28:17 PM.134: 	input:                   /home/maddie/Dropbox/Data/Uplink - Overlays - Nerd or Die/Webcam/4-3 Ratio/Uplink_Webcam_4-3_WebcamStandard.webm
+10:28:17 PM.134: 	input_format:            (null)
+10:28:17 PM.134: 	speed:                   156
+10:28:17 PM.134: 	is_looping:              yes
+10:28:17 PM.134: 	is_hw_decoding:          no
+10:28:17 PM.134: 	is_clear_on_media_end:   yes
+10:28:17 PM.134: 	restart_on_activate:     yes
+10:28:17 PM.134: 	close_when_inactive:     no
+10:28:17 PM.158: v4l2-input: Start capture from /dev/video0
+10:28:17 PM.191: v4l2-input: Input: 0
+10:28:17 PM.243: v4l2-input: Resolution: 640x480
+10:28:17 PM.243: v4l2-input: Pixelformat: VYUY
+10:28:17 PM.243: v4l2-input: Linesize: 1280 Bytes
+10:28:17 PM.244: v4l2-input: Framerate: 30.00 fps
+10:28:17 PM.462: xshm-input: Geometry 1920x1080 @ 0,0
+10:28:17 PM.542: pulse-input: Server name: 'pulseaudio 11.1'
+10:28:17 PM.545: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+10:28:17 PM.546: pulse-input: Started recording from 'alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone_REV8-00.analog-stereo'
+10:28:17 PM.560: Switched to scene 'BRB'
+10:28:17 PM.560: ------------------------------------------------
+10:28:17 PM.560: Loaded scenes:
+10:28:17 PM.560: - scene 'BackToBasics':
+10:28:17 PM.560:     - source: 'Space' (image_source)
+10:28:17 PM.560:     - source: 'Tasks' (xcomposite_input)
+10:28:17 PM.560:     - source: 'Screen' (xshm_input)
+10:28:17 PM.560:     - source: 'Stream' (xcomposite_input)
+10:28:17 PM.560:     - source: 'Webcam' (v4l2_input)
+10:28:17 PM.560:     - source: 'Mic' (pulse_input_capture)
+10:28:17 PM.560:         - filter: 'No Background' (noise_gate_filter)
+10:28:17 PM.560:     - source: 'Text (FreeType 2) 2' (text_ft2_source)
+10:28:17 PM.560: - scene 'Main':
+10:28:17 PM.561:     - source: 'Screen' (xshm_input)
+10:28:17 PM.561:     - source: 'Webcam' (v4l2_input)
+10:28:17 PM.561:     - source: 'WebcamOverlay' (ffmpeg_source)
+10:28:17 PM.561:     - source: 'UplinkAlert' (linuxbrowser-source)
+10:28:17 PM.561:     - source: 'Warning' (text_ft2_source)
+10:28:17 PM.561:     - source: 'Mic' (pulse_input_capture)
+10:28:17 PM.561:         - filter: 'No Background' (noise_gate_filter)
+10:28:17 PM.561:     - source: 'Chatbox Widget' (linuxbrowser-source)
+10:28:17 PM.561: - scene 'Privacy':
+10:28:17 PM.561:     - source: 'Blank Media' (ffmpeg_source)
+10:28:17 PM.561:     - source: 'Text (FreeType 2)' (text_ft2_source)
+10:28:17 PM.561: - scene 'BRB':
+10:28:17 PM.561:     - source: 'BRB Media' (ffmpeg_source)
+10:28:17 PM.561: - scene 'Starting':
+10:28:17 PM.561:     - source: 'Starting Media' (ffmpeg_source)
+10:28:17 PM.561: - scene 'Ending':
+10:28:17 PM.561:     - source: 'Ending Media' (ffmpeg_source)
+10:28:17 PM.561: - scene 'Chatbox':
+10:28:17 PM.561:     - source: 'Chat Underlay' (ffmpeg_source)
+10:28:17 PM.561:     - source: 'Chatbox Widget' (linuxbrowser-source)
+10:28:17 PM.561: ------------------------------------------------
+10:28:17 PM.564: [Media Source '(null)']: settings:
+10:28:17 PM.564: 	input:                   /home/maddie/Dropbox/Data/Uplink - Overlays - Nerd or Die/Stinger Transition/Uplink_Stinger.webm
+10:28:17 PM.564: 	input_format:            (null)
+10:28:17 PM.564: 	speed:                   100
+10:28:17 PM.564: 	is_looping:              no
+10:28:17 PM.564: 	is_hw_decoding:          no
+10:28:17 PM.564: 	is_clear_on_media_end:   yes
+10:28:17 PM.564: 	restart_on_activate:     yes
+10:28:17 PM.564: 	close_when_inactive:     no
+10:28:17 PM.609: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+10:28:18 PM.130: adding 46 milliseconds of audio buffering, total audio buffering is now 92 milliseconds
+10:28:18 PM.890: adding 23 milliseconds of audio buffering, total audio buffering is now 116 milliseconds
+10:28:21 PM.088: ---------------------------------
+10:28:21 PM.088: [NVENC encoder: 'simple_h264_stream'] settings:
+10:28:21 PM.088: 	rate_control: CBR
+10:28:21 PM.088: 	bitrate:      6000
+10:28:21 PM.088: 	cqp:          0
+10:28:21 PM.088: 	keyint:       120
+10:28:21 PM.088: 	preset:       default
+10:28:21 PM.088: 	profile:      main
+10:28:21 PM.088: 	level:        auto
+10:28:21 PM.088: 	width:        1280
+10:28:21 PM.088: 	height:       720
+10:28:21 PM.088: 	2-pass:       true
+10:28:21 PM.088: 	b-frames:     2
+10:28:21 PM.088: 	GPU:          0
+10:28:21 PM.088: 
+10:28:21 PM.324: [NVENC encoder: 'simple_h264_stream'] Failed to open NVENC codec: Unknown error occurred
+10:28:21 PM.324: Stream output type 'rtmp_output' failed to start!
+10:28:26 PM.012: adding 46 milliseconds of audio buffering, total audio buffering is now 162 milliseconds
+10:28:39 PM.431: ---------------------------------
+10:28:39 PM.431: video settings reset:
+10:28:39 PM.431: 	base resolution:   1920x1080
+10:28:39 PM.431: 	output resolution: 1280x720
+10:28:39 PM.431: 	downscale filter:  Bicubic
+10:28:39 PM.431: 	fps:               30/1
+10:28:39 PM.431: 	format:            NV12
+10:28:39 PM.431: 	YUV mode:          601/Partial
+10:28:39 PM.431: Settings changed (outputs, video)
+10:28:39 PM.431: ------------------------------------------------
+10:28:51 PM.683: 
+10:28:51 PM.683: ==== Auto-config wizard testing commencing ======
+
+10:28:51 PM.704: ---------------------------------
+10:28:51 PM.704: video settings reset:
+10:28:51 PM.704: 	base resolution:   1920x1080
+10:28:51 PM.704: 	output resolution: 128x128
+10:28:51 PM.704: 	downscale filter:  Bicubic
+10:28:51 PM.704: 	fps:               60/1
+10:28:51 PM.704: 	format:            NV12
+10:28:51 PM.704: 	YUV mode:          601/Partial
+10:28:51 PM.708: ---------------------------------
+10:28:51 PM.708: [x264 encoder: 'test_x264'] preset: veryfast
+10:28:51 PM.708: [x264 encoder: 'test_x264'] settings:
+10:28:51 PM.708: 	rate_control: CBR
+10:28:51 PM.708: 	bitrate:      6000
+10:28:51 PM.708: 	buffer size:  6000
+10:28:51 PM.708: 	crf:          0
+10:28:51 PM.708: 	fps_num:      60
+10:28:51 PM.708: 	fps_den:      1
+10:28:51 PM.708: 	width:        128
+10:28:51 PM.708: 	height:       128
+10:28:51 PM.708: 	keyint:       120
+10:28:51 PM.708: 
+10:28:51 PM.708: [x264 encoder: 'test_x264'] custom settings: scenecut=0
+10:28:51 PM.710: ---------------------------------
+10:28:51 PM.710: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+10:28:51 PM.710: 
+10:28:51 PM.716: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-jfk.twitch.tv/app...
+10:28:52 PM.191: [rtmp stream: 'test_stream'] Connection to rtmp://live-jfk.twitch.tv/app successful
+10:29:05 PM.073: [rtmp stream: 'test_stream'] User stopped the stream
+10:29:05 PM.073: Output 'test_stream': stopping
+10:29:05 PM.073: Output 'test_stream': Total frames output: 751
+10:29:05 PM.073: Output 'test_stream': Total drawn frames: 802
+10:29:05 PM.078: ---------------------------------
+10:29:05 PM.078: [x264 encoder: 'test_x264'] preset: veryfast
+10:29:05 PM.078: [x264 encoder: 'test_x264'] settings:
+10:29:05 PM.078: 	rate_control: CBR
+10:29:05 PM.078: 	bitrate:      6000
+10:29:05 PM.078: 	buffer size:  6000
+10:29:05 PM.078: 	crf:          0
+10:29:05 PM.078: 	fps_num:      60
+10:29:05 PM.078: 	fps_den:      1
+10:29:05 PM.078: 	width:        128
+10:29:05 PM.078: 	height:       128
+10:29:05 PM.078: 	keyint:       120
+10:29:05 PM.078: 
+10:29:05 PM.078: [x264 encoder: 'test_x264'] custom settings: scenecut=0
+10:29:05 PM.079: ---------------------------------
+10:29:05 PM.079: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+10:29:05 PM.079: 
+10:29:05 PM.080: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-iad.twitch.tv/app...
+10:29:05 PM.593: [rtmp stream: 'test_stream'] Connection to rtmp://live-iad.twitch.tv/app successful
+10:29:18 PM.473: [rtmp stream: 'test_stream'] User stopped the stream
+10:29:18 PM.473: Output 'test_stream': stopping
+10:29:18 PM.473: Output 'test_stream': Total frames output: 751
+10:29:18 PM.473: Output 'test_stream': Total drawn frames: 804
+10:29:18 PM.476: ---------------------------------
+10:29:18 PM.476: [x264 encoder: 'test_x264'] preset: veryfast
+10:29:18 PM.476: [x264 encoder: 'test_x264'] settings:
+10:29:18 PM.476: 	rate_control: CBR
+10:29:18 PM.476: 	bitrate:      6000
+10:29:18 PM.476: 	buffer size:  6000
+10:29:18 PM.476: 	crf:          0
+10:29:18 PM.476: 	fps_num:      60
+10:29:18 PM.476: 	fps_den:      1
+10:29:18 PM.476: 	width:        128
+10:29:18 PM.476: 	height:       128
+10:29:18 PM.476: 	keyint:       120
+10:29:18 PM.476: 
+10:29:18 PM.476: [x264 encoder: 'test_x264'] custom settings: scenecut=0
+10:29:18 PM.477: ---------------------------------
+10:29:18 PM.477: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+10:29:18 PM.477: 
+10:29:18 PM.478: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-ymq.twitch.tv/app...
+10:29:19 PM.001: [rtmp stream: 'test_stream'] Connection to rtmp://live-ymq.twitch.tv/app successful
+10:29:31 PM.872: [rtmp stream: 'test_stream'] User stopped the stream
+10:29:31 PM.872: Output 'test_stream': stopping
+10:29:31 PM.873: Output 'test_stream': Total frames output: 751
+10:29:31 PM.873: Output 'test_stream': Total drawn frames: 804
+10:29:31 PM.888: ---------------------------------
+10:29:31 PM.888: video settings reset:
+10:29:31 PM.888: 	base resolution:   1920x1080
+10:29:31 PM.888: 	output resolution: 1280x720
+10:29:31 PM.888: 	downscale filter:  Bicubic
+10:29:31 PM.888: 	fps:               30/1
+10:29:31 PM.888: 	format:            NV12
+10:29:31 PM.888: 	YUV mode:          601/Partial
+10:29:35 PM.789: ---------------------------------
+10:29:35 PM.790: video settings reset:
+10:29:35 PM.790: 	base resolution:   1920x1080
+10:29:35 PM.790: 	output resolution: 1920x1080
+10:29:35 PM.790: 	downscale filter:  Bicubic
+10:29:35 PM.790: 	fps:               30/1
+10:29:35 PM.790: 	format:            NV12
+10:29:35 PM.790: 	YUV mode:          601/Partial
+10:29:35 PM.799: 
+10:29:35 PM.799: ==== Auto-config wizard testing stopping ========
+
+10:29:51 PM.172: ---------------------------------
+10:29:51 PM.172: [NVENC encoder: 'simple_h264_stream'] settings:
+10:29:51 PM.172: 	rate_control: CBR
+10:29:51 PM.172: 	bitrate:      6000
+10:29:51 PM.172: 	cqp:          0
+10:29:51 PM.172: 	keyint:       60
+10:29:51 PM.172: 	preset:       default
+10:29:51 PM.172: 	profile:      main
+10:29:51 PM.172: 	level:        auto
+10:29:51 PM.172: 	width:        1920
+10:29:51 PM.172: 	height:       1080
+10:29:51 PM.172: 	2-pass:       true
+10:29:51 PM.172: 	b-frames:     2
+10:29:51 PM.172: 	GPU:          0
+10:29:51 PM.172: 
+10:29:51 PM.516: [NVENC encoder: 'simple_h264_stream'] Failed to open NVENC codec: Unknown error occurred
+10:29:51 PM.516: Stream output type 'rtmp_output' failed to start!
+10:29:56 PM.601: adding 23 milliseconds of audio buffering, total audio buffering is now 185 milliseconds
+10:30:21 PM.850: ---------------------------------
+10:30:21 PM.851: [NVENC encoder: 'simple_h264_stream'] settings:
+10:30:21 PM.851: 	rate_control: CBR
+10:30:21 PM.851: 	bitrate:      6000
+10:30:21 PM.851: 	cqp:          0
+10:30:21 PM.851: 	keyint:       60
+10:30:21 PM.851: 	preset:       default
+10:30:21 PM.851: 	profile:      main
+10:30:21 PM.851: 	level:        auto
+10:30:21 PM.851: 	width:        1920
+10:30:21 PM.851: 	height:       1080
+10:30:21 PM.851: 	2-pass:       true
+10:30:21 PM.851: 	b-frames:     2
+10:30:21 PM.851: 	GPU:          0
+10:30:21 PM.851: 
+10:30:21 PM.948: [NVENC encoder: 'simple_h264_stream'] Failed to open NVENC codec: Unknown error occurred
+10:30:21 PM.948: Stream output type 'rtmp_output' failed to start!
+10:34:06 PM.693: Settings changed (outputs)
+10:34:06 PM.694: ------------------------------------------------
+10:34:09 PM.688: ---------------------------------
+10:34:09 PM.693: [NVENC encoder: 'streaming_h264'] settings:
+10:34:09 PM.693: 	rate_control: CBR
+10:34:09 PM.693: 	bitrate:      2500
+10:34:09 PM.693: 	cqp:          0
+10:34:09 PM.693: 	keyint:       60
+10:34:09 PM.693: 	preset:       default
+10:34:09 PM.693: 	profile:      main
+10:34:09 PM.693: 	level:        auto
+10:34:09 PM.693: 	width:        1920
+10:34:09 PM.693: 	height:       1080
+10:34:09 PM.693: 	2-pass:       true
+10:34:09 PM.693: 	b-frames:     2
+10:34:09 PM.693: 	GPU:          0
+10:34:09 PM.693: 
+10:34:09 PM.928: [NVENC encoder: 'streaming_h264'] Failed to open NVENC codec: Unknown error occurred
+10:34:09 PM.928: Stream output type 'rtmp_output' failed to start!
+10:42:06 PM.257: ---------------------------------
+10:42:06 PM.259: [NVENC encoder: 'streaming_h264'] settings:
+10:42:06 PM.259: 	rate_control: CBR
+10:42:06 PM.259: 	bitrate:      2500
+10:42:06 PM.259: 	cqp:          0
+10:42:06 PM.259: 	keyint:       60
+10:42:06 PM.259: 	preset:       default
+10:42:06 PM.259: 	profile:      main
+10:42:06 PM.259: 	level:        auto
+10:42:06 PM.259: 	width:        1920
+10:42:06 PM.259: 	height:       1080
+10:42:06 PM.259: 	2-pass:       true
+10:42:06 PM.259: 	b-frames:     2
+10:42:06 PM.259: 	GPU:          0
+10:42:06 PM.259: 
+10:42:06 PM.504: [NVENC encoder: 'streaming_h264'] Failed to open NVENC codec: Unknown error occurred
+10:42:06 PM.504: Stream output type 'rtmp_output' failed to start!
+10:42:10 PM.387: ==== Shutting down ==================================================
+10:42:10 PM.393: Switched to scene '(null)'
+10:42:10 PM.414: v4l2-input: Stopped capture after 12494 frames
+10:42:11 PM.033: pulse-input: Stopped recording from 'alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone_REV8-00.analog-stereo'
+10:42:11 PM.034: pulse-input: Got 73970 packets with 36756586 frames
+10:42:11 PM.085: pulse-input: Stopped recording from 'alsa_output.usb-Blue_Microphones_Yeti_Stereo_Microphone_REV8-00.analog-stereo.monitor'
+10:42:11 PM.085: pulse-input: Got 152287 packets with 40109701 frames
+10:42:11 PM.085: pulse-input: Stopped recording from 'alsa_input.usb-046d_HD_Pro_Webcam_C920_D53C89AF-02.analog-stereo'
+10:42:11 PM.085: pulse-input: Got 68284 packets with 26682431 frames
+10:42:11 PM.086: All scene data cleared
+10:42:11 PM.086: ------------------------------------------------
+10:42:11 PM.133: Freeing OBS context data
+10:42:11 PM.148: [Scripting] Total detached callbacks: 0
+10:42:11 PM.167: == Profiler Results =============================
+10:42:11 PM.168: run_program_init: 998.985 ms
+10:42:11 PM.168:  ┣OBSApp::AppInit: 1.629 ms
+10:42:11 PM.168:  ┃ ┗OBSApp::InitLocale: 0.737 ms
+10:42:11 PM.168:  ┗OBSApp::OBSInit: 924.289 ms
+10:42:11 PM.168:    ┣obs_startup: 19.238 ms
+10:42:11 PM.168:    ┗OBSBasic::OBSInit: 873.879 ms
+10:42:11 PM.168:      ┣OBSBasic::InitBasicConfig: 0.084 ms
+10:42:11 PM.168:      ┣OBSBasic::ResetAudio: 0.129 ms
+10:42:11 PM.168:      ┣OBSBasic::ResetVideo: 77.954 ms
+10:42:11 PM.168:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+10:42:11 PM.168:      ┣OBSBasic::InitHotkeys: 0.028 ms
+10:42:11 PM.168:      ┣obs_load_all_modules: 111.507 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(frontend-tools.so): 74.824 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(image-source.so): 0.003 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(linux-capture.so): 0.584 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(linux-decklink.so): 0.095 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(linux-jack.so): 0.003 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.002 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(linux-v4l2.so): 0.001 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.483 ms
+10:42:11 PM.168:      ┃ ┃ ┗nvenc_check: 0.44 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(obs-filters.so): 0.008 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(obs-outputs.so): 0.004 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(obs-transitions.so): 0.006 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(rtmp-services.so): 0.378 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(text-freetype2.so): 0.011 ms
+10:42:11 PM.168:      ┃ ┣obs_init_module(vlc-video.so): 0.422 ms
+10:42:11 PM.168:      ┃ ┗obs_init_module(libobs-linuxbrowser.so): 0.003 ms
+10:42:11 PM.168:      ┣OBSBasic::ResetOutputs: 0.129 ms
+10:42:11 PM.168:      ┣OBSBasic::CreateHotkeys: 0.02 ms
+10:42:11 PM.168:      ┣OBSBasic::InitService: 0.77 ms
+10:42:11 PM.168:      ┣OBSBasic::InitPrimitives: 0.194 ms
+10:42:11 PM.168:      ┗OBSBasic::Load: 501.536 ms
+10:42:11 PM.168: obs_hotkey_thread(25 ms): min=0.035 ms, median=0.13 ms, max=138.648 ms, 99th percentile=12.448 ms, 99.8175% below 25 ms
+10:42:11 PM.168: audio_thread(Audio): min=0 ms, median=0.097 ms, max=15.919 ms, 99th percentile=1.766 ms
+10:42:11 PM.168:  ┗receive_audio: min=0.001 ms, median=0.127 ms, max=11.574 ms, 99th percentile=0.225 ms, 0.0464954 calls per parent call
+10:42:11 PM.168:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.019 ms, 99th percentile=0.005 ms
+10:42:11 PM.168:    ┗do_encode: min=0.01 ms, median=0.124 ms, max=11.57 ms, 99th percentile=0.221 ms
+10:42:11 PM.168:      ┗encode(test_aac): min=0.01 ms, median=0.115 ms, max=11.567 ms, 99th percentile=0.211 ms
+10:42:11 PM.168: obs_graphics_thread(16.6667 ms): min=0.049 ms, median=3.955 ms, max=475.303 ms, 99th percentile=18.553 ms, 98.7131% below 16.667 ms
+10:42:11 PM.168:  ┣tick_sources: min=0 ms, median=0.014 ms, max=474.446 ms, 99th percentile=0.038 ms
+10:42:11 PM.168:  ┣output_frame: min=0.045 ms, median=0.388 ms, max=22.723 ms, 99th percentile=2.292 ms
+10:42:11 PM.168:  ┃ ┗gs_context(video->graphics): min=0.045 ms, median=0.388 ms, max=22.723 ms, 99th percentile=2.291 ms
+10:42:11 PM.168:  ┃   ┣render_video: min=0.014 ms, median=0.138 ms, max=22.506 ms, 99th percentile=2.21 ms
+10:42:11 PM.168:  ┃   ┃ ┗render_main_texture: min=0.012 ms, median=0.135 ms, max=22.503 ms, 99th percentile=2.207 ms
+10:42:11 PM.168:  ┃   ┗gs_flush: min=0.008 ms, median=0.041 ms, max=0.213 ms, 99th percentile=0.086 ms
+10:42:11 PM.168:  ┗render_displays: min=0.003 ms, median=1.717 ms, max=32.506 ms, 99th percentile=17.505 ms
+10:42:11 PM.168: OBSBasic::ResetOutputs: min=0.093 ms, median=0.105 ms, max=0.143 ms, 99th percentile=0.143 ms
+10:42:11 PM.168: OBSBasic::ResetVideo: min=7.156 ms, median=0 ms, max=30.197 ms, 99th percentile=30.197 ms
+10:42:11 PM.168: obs_graphics_thread(33.3333 ms): min=0.801 ms, median=2.044 ms, max=27.369 ms, 99th percentile=6.019 ms, 100% below 33.333 ms
+10:42:11 PM.168:  ┣tick_sources: min=0.013 ms, median=0.016 ms, max=0.168 ms, 99th percentile=0.052 ms
+10:42:11 PM.168:  ┣output_frame: min=0.297 ms, median=1.635 ms, max=3.395 ms, 99th percentile=3.103 ms
+10:42:11 PM.168:  ┃ ┗gs_context(video->graphics): min=0.296 ms, median=1.635 ms, max=3.395 ms, 99th percentile=3.102 ms
+10:42:11 PM.168:  ┃   ┣render_video: min=0.079 ms, median=1.393 ms, max=3.092 ms, 99th percentile=2.846 ms
+10:42:11 PM.168:  ┃   ┃ ┗render_main_texture: min=0.076 ms, median=1.39 ms, max=3.088 ms, 99th percentile=2.841 ms
+10:42:11 PM.169:  ┃   ┗gs_flush: min=0.009 ms, median=0.2 ms, max=1.167 ms, 99th percentile=0.551 ms
+10:42:11 PM.169:  ┗render_displays: min=0.184 ms, median=0.351 ms, max=24.252 ms, 99th percentile=5.577 ms
+10:42:11 PM.169: obs_graphics_thread(16.6667 ms): min=0.27 ms, median=2.057 ms, max=18.652 ms, 99th percentile=7.491 ms, 99.9585% below 16.667 ms
+10:42:11 PM.169:  ┣tick_sources: min=0.012 ms, median=0.015 ms, max=0.12 ms, 99th percentile=0.033 ms
+10:42:11 PM.169:  ┣output_frame: min=0.075 ms, median=1.656 ms, max=11.908 ms, 99th percentile=3.02 ms
+10:42:11 PM.169:  ┃ ┣gs_context(video->graphics): min=0.075 ms, median=1.648 ms, max=11.908 ms, 99th percentile=2.683 ms
+10:42:11 PM.169:  ┃ ┃ ┣render_video: min=0.038 ms, median=1.623 ms, max=11.837 ms, 99th percentile=2.579 ms
+10:42:11 PM.169:  ┃ ┃ ┃ ┣render_main_texture: min=0.03 ms, median=0.064 ms, max=11.832 ms, 99th percentile=0.126 ms
+10:42:11 PM.169:  ┃ ┃ ┃ ┣render_output_texture: min=0.001 ms, median=0.025 ms, max=1.543 ms, 99th percentile=0.06 ms
+10:42:11 PM.169:  ┃ ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.018 ms, max=1.001 ms, 99th percentile=0.046 ms
+10:42:11 PM.169:  ┃ ┃ ┃ ┗stage_output_texture: min=0 ms, median=1.505 ms, max=8.179 ms, 99th percentile=2.467 ms
+10:42:11 PM.169:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.002 ms, max=0.075 ms, 99th percentile=0.027 ms
+10:42:11 PM.169:  ┃ ┃ ┗download_frame: min=0 ms, median=0.002 ms, max=0.019 ms, 99th percentile=0.007 ms
+10:42:11 PM.169:  ┃ ┗output_video_data: min=0.005 ms, median=0.006 ms, max=1.97 ms, 99th percentile=0.122 ms
+10:42:11 PM.169:  ┗render_displays: min=0.164 ms, median=0.363 ms, max=13.688 ms, 99th percentile=5.584 ms
+10:42:11 PM.169: video_thread(video): min=0.033 ms, median=0.064 ms, max=1.948 ms, 99th percentile=0.124 ms
+10:42:11 PM.169:  ┗receive_video: min=0.032 ms, median=0.063 ms, max=1.947 ms, 99th percentile=0.123 ms
+10:42:11 PM.169:    ┗do_encode: min=0.032 ms, median=0.063 ms, max=1.946 ms, 99th percentile=0.123 ms
+10:42:11 PM.169:      ┗encode(test_x264): min=0.032 ms, median=0.051 ms, max=1.911 ms, 99th percentile=0.112 ms
+10:42:11 PM.169: obs_graphics_thread(33.3333 ms): min=0.396 ms, median=2.575 ms, max=31.772 ms, 99th percentile=20.441 ms, 100% below 33.333 ms
+10:42:11 PM.169:  ┣tick_sources: min=0.013 ms, median=0.015 ms, max=0.051 ms, 99th percentile=0.03 ms
+10:42:11 PM.169:  ┣output_frame: min=0.132 ms, median=1.837 ms, max=11.19 ms, 99th percentile=9.353 ms
+10:42:11 PM.169:  ┃ ┗gs_context(video->graphics): min=0.132 ms, median=1.837 ms, max=11.19 ms, 99th percentile=9.353 ms
+10:42:11 PM.169:  ┃   ┣render_video: min=0.062 ms, median=1.537 ms, max=6.573 ms, 99th percentile=6.417 ms
+10:42:11 PM.169:  ┃   ┃ ┗render_main_texture: min=0.06 ms, median=1.534 ms, max=6.571 ms, 99th percentile=6.415 ms
+10:42:11 PM.169:  ┃   ┗gs_flush: min=0.032 ms, median=0.219 ms, max=5.795 ms, 99th percentile=5.7 ms
+10:42:11 PM.169:  ┗render_displays: min=0.211 ms, median=0.46 ms, max=29.789 ms, 99th percentile=14.259 ms
+10:42:11 PM.169: obs_graphics_thread(33.3333 ms): min=0.344 ms, median=2.337 ms, max=60.402 ms, 99th percentile=29.169 ms, 99.5675% below 33.333 ms
+10:42:11 PM.169:  ┣tick_sources: min=0.002 ms, median=0.016 ms, max=2.891 ms, 99th percentile=0.039 ms
+10:42:11 PM.169:  ┣output_frame: min=0.049 ms, median=1.761 ms, max=32.423 ms, 99th percentile=4.314 ms
+10:42:11 PM.169:  ┃ ┗gs_context(video->graphics): min=0.049 ms, median=1.761 ms, max=32.423 ms, 99th percentile=4.314 ms
+10:42:11 PM.169:  ┃   ┣render_video: min=0.03 ms, median=1.68 ms, max=32.341 ms, 99th percentile=4.189 ms
+10:42:11 PM.169:  ┃   ┃ ┗render_main_texture: min=0.028 ms, median=1.677 ms, max=32.337 ms, 99th percentile=4.186 ms
+10:42:11 PM.169:  ┃   ┗gs_flush: min=0.008 ms, median=0.048 ms, max=8.419 ms, 99th percentile=0.12 ms
+10:42:11 PM.169:  ┗render_displays: min=0.182 ms, median=0.414 ms, max=58.747 ms, 99th percentile=26.983 ms
+10:42:11 PM.169: =================================================
+10:42:11 PM.169: == Profiler Time Between Calls ==================
+10:42:11 PM.169: obs_hotkey_thread(25 ms): min=25.063 ms, median=25.205 ms, max=163.718 ms, 86.8406% within ±2% of 25 ms (0% lower, 13.1594% higher)
+10:42:11 PM.169: obs_graphics_thread(16.6667 ms): min=1.699 ms, median=16.667 ms, max=475.306 ms, 96.6667% within ±2% of 16.667 ms (1.43939% lower, 1.89394% higher)
+10:42:11 PM.169: obs_graphics_thread(33.3333 ms): min=30.019 ms, median=33.333 ms, max=36.643 ms, 96.4578% within ±2% of 33.333 ms (1.63488% lower, 1.90736% higher)
+10:42:11 PM.169: obs_graphics_thread(16.6667 ms): min=12.887 ms, median=16.667 ms, max=20.465 ms, 98.7552% within ±2% of 16.667 ms (0.622407% lower, 0.622407% higher)
+10:42:11 PM.169: obs_graphics_thread(33.3333 ms): min=28.608 ms, median=33.334 ms, max=38.038 ms, 98.2759% within ±2% of 33.333 ms (0.862069% lower, 0.862069% higher)
+10:42:11 PM.169: obs_graphics_thread(33.3333 ms): min=1.974 ms, median=33.333 ms, max=108.617 ms, 88.8467% within ±2% of 33.333 ms (5.55237% lower, 5.60092% higher)
+10:42:11 PM.169: =================================================
+10:42:11 PM.242: Number of memory leaks: 0
