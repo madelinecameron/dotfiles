@@ -5,11 +5,6 @@ monitor2=DP-5
 wm=$(wmctrl -m | awk 'NR==1{print $2}')
 
 refresh() {
-  #SHORTCUTS
-
-  #MONITORS
-  #xrandr --output $monitor1 --primary --mode 3840x2160 --pos 0x1080 --output $monitor2 --mode 1920x1080 --pos 920x0 &
-
   #TASKBAR
   killall -q polybar
   while pgrep -x polybar >/dev/null; do sleep 1; done
@@ -22,28 +17,16 @@ refresh() {
   while pgrep -x compton >/dev/null; do sleep 1; done
   #compton --glx-no-stencil --glx-no-rebind-pixmap --glx-swap-method exchange --config ~/.config/compton/compton &
 
-  #WALLPAPER
-  #pkill -f loopwall
-  #$HOME/.sbin/./loopwall $HOME/Sets/.wallpaper 300 &
-
   #NOTIFICATION
-  #killall -q dunst
-  #while pgrep -x dunst >/dev/null; do sleep 1; done
-  #dunst -config $HOME/.config/dunst/dunst &
-
-  #WIDGETS
-  #killall -q conky
-  #while pgrep -x conky >/dev/null; do sleep 1; done
-  #conky -c $HOME/.config/conky/conky &
+  killall -q dunst
+  while pgrep -x dunst >/dev/null; do sleep 1; done
+  dunst -config $HOME/.config/dunst/dunst &
 }
 
 runonce() {
-
-  #KEYBOARD
-
   #WM
   flashfocus &>/dev/null &
-  /home/bresilla/.config/bspwm/scripts/./btops &
+  ${HOME}/.config/bspwm/scripts/./btops &
 
   #SSH-AGENT
   eval "$(ssh-agent)"
