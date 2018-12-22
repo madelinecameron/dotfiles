@@ -129,6 +129,9 @@ inoremap jk <esc>:<cr><right>
 
 " Quickly switch tabs
 nnoremap gr gT
+map  <C-l> :tabn<CR>
+map  <C-h> :tabp<CR>
+map  <C-n> :tabnew<CR>
 
 " Tab to switch buffers
 nnoremap <tab> :bn<CR>
@@ -169,20 +172,6 @@ map <Leader><Leader> <Plug>(easymotion-prefix)
 " Search and replace word under cursor
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
 
-" Persistent undo and swp files
-set undofile
-set undolevels=1000
-set undoreload=1000
-if !isdirectory(expand("~/.vim/.swap/"))
-  silent !mkdir -p ~/.vim/.swap
-endif
-if !isdirectory(expand("~/.vim/.undo/"))
-  silent !mkdir -p ~/.vim/.undo
-endif
-set directory^=~/.vim/.swap/
-set undodir^=~/.vim/.undo/
-
-" ======= Plugin Settings =======
 
 " vim-javascript
 " Enable syntax highlighting for JSDoc comments
