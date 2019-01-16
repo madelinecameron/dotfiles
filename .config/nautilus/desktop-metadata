@@ -1,99 +1,19 @@
 [directory]
 nautilus-icon-view-keep-aligned=true
+nautilus-icon-view-layout-timestamp=1547637726
 nautilus-desktop-icon-size=48
-nautilus-icon-view-layout-timestamp=1544842915
 
 [trash]
-nautilus-icon-position-timestamp=1544842915
+nautilus-icon-position-timestamp=1547637726
 nautilus-icon-position=56,26
 icon-scale=1
-
-[Storage.volume]
-nautilus-icon-position=56,146
-icon-scale=1
-nautilus-icon-position-timestamp=1536070459
-
-[Ubuntu 18.04.1 LTS amd64.volume]
-nautilus-icon-position=56,266
-icon-scale=1
-nautilus-icon-position-timestamp=1533521615
-
-[J_CCSA_X64FRE_EN-US_DV5.volume]
-nautilus-icon-position=56,426
-icon-scale=1
-nautilus-icon-position-timestamp=1533513575
-
-[J_CCSA_X64FRE_EN-US_DV5.volume.2]
-nautilus-icon-position=56,586
-icon-scale=1
-nautilus-icon-position-timestamp=1533513585
-
-[J_CCSA_X64FRE_EN-US_DV5.volume.3]
-nautilus-icon-position=56,746
-icon-scale=1
-nautilus-icon-position-timestamp=1533513593
-
-[woeusb_source_1533774037_10392.volume]
-nautilus-icon-position=56,146
-icon-scale=1
-nautilus-icon-position-timestamp=1533774037
-
-[Windows USB.volume]
-nautilus-icon-position=56,306
-icon-scale=1
-nautilus-icon-position-timestamp=1533774043
 
 [iPhone.volume]
 nautilus-icon-position=56,146
 icon-scale=1
-nautilus-icon-position-timestamp=1534123850
+nautilus-icon-position-timestamp=1542228539
 
-[maddie for Madeline on Madeline’s MacBook Pro.volume]
-nautilus-icon-position=56,146
+[Ubuntu 18.04.1 LTS amd64.volume]
+nautilus-icon-position=56,266
 icon-scale=1
-nautilus-icon-position-timestamp=1535330442
-
-[Madeline's Public Folder for Madeline on Madeline’s MacBook Pro.volume]
-nautilus-icon-position=56,306
-icon-scale=1
-nautilus-icon-position-timestamp=1535331034
-
-[BUNSENLABS_HYDROGEN.volume]
-nautilus-icon-position=56,146
-icon-scale=1
-nautilus-icon-position-timestamp=1535681384
-
-[dump.volume]
-nautilus-icon-position=56,146
-icon-scale=1
-nautilus-icon-position-timestamp=1535681922
-
-[My Passport.volume]
-nautilus-icon-position=56,146
-icon-scale=1
-nautilus-icon-position-timestamp=1537045877
-
-[Media.volume]
-nautilus-icon-position=56,146
-icon-scale=1
-nautilus-icon-position-timestamp=1537045994
-
-[Kindle.volume]
-nautilus-icon-position=56,306
-icon-scale=1
-nautilus-icon-position-timestamp=1539115179
-
-[Gentoo Linux amd64 20170907.volume]
-nautilus-icon-position=56,446
-icon-scale=1
-nautilus-icon-position-timestamp=1541420206
-
-[Games.volume]
-nautilus-icon-position=56,146
-icon-scale=1
-nautilus-icon-position-timestamp=1543329246
-
-[64 GB Volume.volume]
-nautilus-icon-position=56,386
-icon-scale=1
-nautilus-icon-position-timestamp=1544752120
+nautilus-icon-position-timestamp=1547592226
