@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Autoload include directory
-for includeFile in $(find "${HOME}/.dotfiles/bash/includes" -type f)
-do
-  . "${includeFile}"
-done
-
 EDITOR=vim
 TZ=America/New_York
 LANG=en_US.UTF-8
@@ -16,7 +10,7 @@ HISTSIZE=10000
 CLICOLOR=1
 
 # Vim key bindings
-set -o vim
+set -o vi
 
 export EDITOR TZ LANG HISTFILE HISTSIZE CLICOLOR
 
