@@ -44,7 +44,7 @@ alias ....="cd ../../.."
 
 alias code="cd ~/code"
 
-alias wifi=nmcli dev wifi
+alias wifi="nmcli dev wifi"
 
 # Get week number
 alias week='date +%V'
