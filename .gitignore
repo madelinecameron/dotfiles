@@ -1,2 +1,14 @@
 vim/.undo
 vim/plugged
+.config/pulse/
+.config/yelp/
+.config/user-dirs.locale
+.config/
+.config/user-dirs.dirs
+.config/keyring.deb
+.config/ibus/
+.config/gtk-3.0/
+.config/gnome-initial-setup-done
+.config/configstore/update-notifier-npm.json
+.config/dconf/user
+.config/configstore/update-notifier-npm-check.json

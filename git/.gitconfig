@@ -14,7 +14,7 @@
   c = commit -m $1
   fc = commit --amend
   oops = reset --soft HEAD^
-  nuke = reset --hard origin/$(git rev-parse --abbrev-ref HEAD)
+  nuke = reset --hard origin $(git rev-parse --abbrev-ref HEAD)
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
