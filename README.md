@@ -1,6 +1,6 @@
-# Madeline's Dotfiles
+# Maddie's Dotfiles
 
-Dotfiles for ZSH and Guake, plus a few tools and functions to make my life a little easier
+i3wm, st, git and various other utilities to make my linux life easier
 
 ## Install
 Paste this in the terminal. It will clone the repo, source the bash profile, then run an install script.
