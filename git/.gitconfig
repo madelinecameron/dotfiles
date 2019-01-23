@@ -8,16 +8,13 @@
 [color]
   ui = auto
 [alias]
-  aa = add --all
   ap = add --patch
-  gd = diff
-  grm = rebase master
-  gra = rebase --abort
-  grc = rebase --continue
-  gs = status
-  gc = commit -m $1
-  oops = commit -a --amend
-  dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+  d = diff
+  s = status
+  c = commit -m $1
+  fc = commit --amend
+  oops = reset --soft HEAD^
+  nuke = reset --hard origin/$(git rev-parse --abbrev-ref HEAD)
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
