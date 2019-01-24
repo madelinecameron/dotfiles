@@ -15,6 +15,7 @@
   fc = commit --amend
   oops = reset --soft HEAD^
   nuke = reset --hard origin $(git rev-parse --abbrev-ref HEAD)
+  go = checkout -B
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
@@ -33,3 +34,11 @@
   autosquash = true
 [include]
   path = ~/.gitconfig.local
+[diff]
+  # Use more time to create better diffs. E.g. matching opening/closing braces
+  # from neighbour functions.
+  algorithm = patience
+
+  # Tells Git to detect renames. If set to "true", it will enable basic
+  # rename detection. If set to "copies", it will detect copies, as well.
+  renames = copies
