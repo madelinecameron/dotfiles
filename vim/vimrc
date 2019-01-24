@@ -9,13 +9,13 @@ Plug 'ConradIrwin/vim-bracketed-paste'      " better copy-paste in insert mode
 Plug 'jlanzarotta/bufexplorer'              " buffer exploring
 Plug 'scrooloose/nerdtree'                  " file explorer (nerd tree)
 Plug 'jistr/vim-nerdtree-tabs'              " persistent nerd tree
-Plug 'vim-airline/vim-airline'              " better status bar
-Plug 'vim-airline/vim-airline-themes'       " status bar theme
 Plug 'wesQ3/vim-windowswap'                 " swap windows
 Plug 'gcmt/taboo.vim'                       " better tabs
 Plug 'mhinz/vim-startify'                   " start screen
 Plug 'DataWraith/auto_mkdir'                " mkdir -p for creating files
 Plug 'sjl/gundo.vim'                        " view undo tree
+Plug 'itchyny/lightline.vim'
+Plug 'w0rp/ale'
 
 " Track the engine.
 Plug 'SirVer/ultisnips'
@@ -68,6 +68,9 @@ set hlsearch                        " Highlight search results
 
 " Colors, syntax
 syntax on                           " Syntax highlighting
+let g:lightline = {
+      \ 'colorscheme': 'jellybeans',
+      \ }
 set number                          " Show number lines
 set autoindent
 filetype plugin indent on
@@ -78,6 +81,8 @@ set term=screen-256color
 colorscheme badwolf
 set list                            " See indent lines
 set listchars=tab:\|\
+set noshowmode
+
 
 " editing, tabs, indenting
 set expandtab                       " Tab key creates spaces
@@ -90,6 +95,7 @@ set backspace=2                     " Best backspace setting
 scriptencoding utf-8
 set encoding=utf-8
 set foldenable
+autocmd BufWritePre * %s/\s\+$//e
 
 " status bar
 set laststatus=2
