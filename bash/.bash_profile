@@ -61,4 +61,6 @@ alias remove="sudo apt-get remove"
 alias search="apt-cache search"
 
 alias pbcopy='xclip -i -selection clipboard'
-alias pbpaste='xclip -o -selection clipboard'
+alias pbpaste='xclip -o -selection clipboard
+
+connect= sudo nmcli dev wifi con "https://qnzl.co" password 6366998620 "phone"'
