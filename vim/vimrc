@@ -46,6 +46,7 @@ Plug 'wellsjo/vim-save-cursor-position'     " Save cursor position when you exit
 
 " Languages
 Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
 Plug 'hashivim/vim-terraform'
 Plug 'jparise/vim-graphql'
 Plug 'gf3/peg.vim'
@@ -71,6 +72,11 @@ syntax on                           " Syntax highlighting
 let g:lightline = {
       \ 'colorscheme': 'jellybeans',
       \ }
+
+set background=dark
+let g:base16colorspace=256
+let g:theme_name = 'base16-google-dark'
+let g:airline_theme = 'base16'
 set number                          " Show number lines
 set autoindent
 filetype plugin indent on

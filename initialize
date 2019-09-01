@@ -2,7 +2,7 @@
 
 function initialize_system() {
 
-  sudo apt-get install git-extras build-essential taskwarrior rxvt-unicode i3 compton polybar dunst
+  sudo apt-get install git-extras build-essential taskwarrior rxvt-unicode i3 compton dunst feh
 
   # Vim
   echo -e "\nSetting symlinks..."
@@ -19,7 +19,8 @@ function initialize_system() {
   symlink "${HOME}/.dotfiles/.config" "${HOME}/.config"
 
   # Tmux
-  symlink "${HOME}/.dotfiles/tmux/tmux.conf" "${HOME}/.tmux.conf"
+  symlink "${HOME}/.dotfiles/.tmux" "${HOME}/.tmux"
+  symlink "${HOME}/.dotfiles/.tmux/tmux.conf" "${HOME}/.tmux.conf"
 
   # git
   symlink "${HOME}/.dotfiles/git/.gitconfig" "${HOME}/.gitconfig"
@@ -38,6 +39,9 @@ function initialize_system() {
 
   nvm install --lts
   nvm use --lts
+
+  npm install -g @qnzl/lockbox
+  gem install tmuxinator
 
   git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
   ~/.fzf/install

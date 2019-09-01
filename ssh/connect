@@ -1,11 +1,14 @@
-qnzl="45.76.2.252"
+declare -A rawIPs
 
-function connect() {
-  ssh root@$1 -A -i ~/.ssh/qnzl
+rawIPs["dips"]="140.82.63.74"
+rawIPs["qnzl"]="45.76.2.252"
+
+function connect_ip() {
+  ssh root@${rawIPs[$1]} -A -i ~/.ssh/qnzl
 }
 
 function ips() {
-  for site in qnzl; do
-    echo $site
+  for site in ${!rawIPs[@]}; do
+    echo ${site} = ${rawIPs[${site}]}
   done
 }

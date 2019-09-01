@@ -1,10 +1,10 @@
 [directory]
 nautilus-icon-view-keep-aligned=true
-nautilus-icon-view-layout-timestamp=1547637726
+nautilus-icon-view-layout-timestamp=1566658893
 nautilus-desktop-icon-size=48
 
 [trash]
-nautilus-icon-position-timestamp=1547637726
+nautilus-icon-position-timestamp=1566658893
 nautilus-icon-position=56,26
 icon-scale=1
 
@@ -17,3 +17,8 @@ nautilus-icon-position-timestamp=1542228539
 nautilus-icon-position=56,266
 icon-scale=1
 nautilus-icon-position-timestamp=1547592226
+
+[Media.volume]
+nautilus-icon-position=56,386
+icon-scale=1
+nautilus-icon-position-timestamp=1566658900

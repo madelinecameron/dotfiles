@@ -58,28 +58,6 @@
                        }
                     ],
                     "type": "con"
-                },
-                {
-                    "border": "normal",
-                    "current_border_width": 2,
-                    "floating": "auto_off",
-                    "geometry": {
-                       "height": 1072,
-                       "width": 739,
-                       "x": 0,
-                       "y": 0
-                    },
-                    "name": "Viewing",
-                    "percent": 0.4,
-                    "swallows": [
-                       {
-                          "class": "^Firefox$",
-                          "instance": "^Navigator$",
-                          "title": "^Mozilla\\ Firefox$",
-                          "window_role": "^browser$"
-                       }
-                    ],
-                    "type": "con"
                 }
             ]
         }
