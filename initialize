@@ -2,7 +2,7 @@
 
 function initialize_system() {
 
-  sudo apt-get install git-extras build-essential taskwarrior rxvt-unicode i3 compton dunst feh
+  sudo apt-get install git-extras build-essential taskwarrior rxvt-unicode i3 compton dunst feh autojump
 
   # Vim
   echo -e "\nSetting symlinks..."
