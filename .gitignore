@@ -12,3 +12,4 @@ vim/plugged
 .config/configstore/update-notifier-npm.json
 .config/dconf/user
 .config/configstore/update-notifier-npm-check.json
+.config/obs-studio/
