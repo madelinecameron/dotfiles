@@ -1,56 +1,46 @@
 #!/bin/bash
 
+function moveFiles() {
+  TYPE=$1
+  FROM_WHERE=$2
+  TO_WHERE=$3
+
+  find $2 -maxdepth 1 -type f -iname "$1" | while read f
+  do
+    mv "$f" $3
+  done
+}
+
 unneededFiles=()
+uneededFolders=()
 
-photos=$(find ~ -maxdepth 1 -type f -iname "*.jpg")
-gifs=$(find ~ -maxdepth 1 -type f -iname "*.gif")
-unneededFolders=$(find ~ -maxdepth 1 -type d -iname "[A-z]*" | ack '(\/home\/[A-z]+\/)(?!Documents|code|Music|Public|Dropbox|Downloads|Videos|Pictures|Desktop|Dump)')
-readarray -d '' unneededFiles < <(find ~ -maxdepth 1 -type f -iname "*" -print0)
+mkdir -p ~/Downloads/{ISO,GIFs,}
 
-echo ${unneededFiles}
+readarray -d '' unneededFolders < <(find ~ -maxdepth 1 -type d -iname "[A-z]*" | ack '(\/home\/[A-z]+\/)(?!Documents|code|Music|Public|Dropbox|Downloads|Videos|Pictures|Desktop|Dump|Android)')
+
 mkdir -p ~/Dump
-for folder in $unneededFolders; do
-  mv "$folder" "~/Dump"
+mkdir -p ~/Dump/Images
+
+for folder in ${unneededFolders[@]}; do
+  mv "$folder/*" ~/Dump
 done
 
-for file in ${uneededFiles[@]}; do
-  echo $file
-  mv "$file" "~/Dump"
+find ~ -maxdepth 1 -type f -name "*" -not -name ".*" -print0 |
+  while IFS= read -r -d '' file; do
+    mv "$file" ~/Dump
 done
 
-for gif in $gifs; do
- mv "$gif" "~/Dropbox/Pictures/memes"
-done
-
-for photo in $photos; do
-  mv "$photo" ~/Dropbox/Pictures/ToOrganize/*
-done
-
-echo "END FIRST"
+moveFiles "*.gif" ~ ~/Downloads/GIFs
+moveFiles "*.iso" ~/Downloads ~/Downloads/ISO
+moveFiles "*.gif" ~/Downloads ~/Downloads/GIFs
 
 ##################
 
-isos=$(find ~/Downloads -maxdepth 1 -type f -iname "*.iso")
-gifs=$(find ~/Downloads -maxdepth 1 -type f -iname "*.gif")
 photos=$(find ~/Downloads -maxdepth 1 -type f \( -name "*jpg" -o -name "*png" -o -name "*PNG" -o -name "*JPG" -o -name "*JPEG" \) | ack '(\/home\/[A-z]+\/Downloads\/(IMG|(20[0-9]{2})).*\.(jpg|JPG|jpeg))')
 
-echo "SECOND"
-mkdir -p ~/Downloads/ISO
-
 for photo in $photos; do
-  mv "$photo" ~/Dropbox/Pictures/ToOrganize
+  mv "$photo" ~/Dump/Images
 done
 
-for iso in $isos; do
-  mv "$iso" ~/Downloads/ISO
-done
-
-for gif in $gifs; do
-  mv "$gif" ~/Dropbox/Pictures/memes
-done
-
-everythingElse=$(find ~/Downloads -maxdepth 1 -type f -iname "*")
-
-for thing in $everythingElse; do
-  mv "$thing" ~/Dump
-done
+# Move everything left
+moveFiles "*" ~/Downloads ~/Dump

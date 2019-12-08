@@ -184,6 +184,9 @@ map <Leader><Leader> <Plug>(easymotion-prefix)
 " Search and replace word under cursor
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
 
+" Clear highlighting on escape in normal mode
+nnoremap <esc> :noh<return><esc>
+nnoremap <esc>^[ <esc>^[
 
 " vim-javascript
 " Enable syntax highlighting for JSDoc comments
