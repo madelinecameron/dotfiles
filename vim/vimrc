@@ -15,7 +15,8 @@ Plug 'mhinz/vim-startify'                   " start screen
 Plug 'DataWraith/auto_mkdir'                " mkdir -p for creating files
 Plug 'sjl/gundo.vim'                        " view undo tree
 Plug 'itchyny/lightline.vim'
-Plug 'w0rp/ale'
+
+"Plug 'dense-analysis/ale'
 
 " Track the engine.
 Plug 'SirVer/ultisnips'
@@ -45,6 +46,7 @@ Plug 'ntpeters/vim-better-whitespace'       " whitespace handler
 Plug 'wellsjo/vim-save-cursor-position'     " Save cursor position when you exit files
 
 " Languages
+Plug 'posva/vim-vue'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'hashivim/vim-terraform'
@@ -55,6 +57,7 @@ call plug#end()
 
 " =============================================================================
 
+set clipboard=unnamed
 if has("mac")
   set shortmess+=c                    " Getsrid of annoying error messages
 endif
