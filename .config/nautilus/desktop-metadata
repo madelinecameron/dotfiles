@@ -1,24 +1,14 @@
 [directory]
 nautilus-icon-view-keep-aligned=true
-nautilus-icon-view-layout-timestamp=1574262476
+nautilus-icon-view-layout-timestamp=1577794742
 nautilus-desktop-icon-size=48
 
 [trash]
-nautilus-icon-position-timestamp=1574262476
-nautilus-icon-position=56,26
+nautilus-icon-position-timestamp=1577794742
+nautilus-icon-position=56,306
 icon-scale=1
-
-[iPhone.volume]
-nautilus-icon-position=56,146
-icon-scale=1
-nautilus-icon-position-timestamp=1542228539
-
-[Ubuntu 18.04.1 LTS amd64.volume]
-nautilus-icon-position=56,266
-icon-scale=1
-nautilus-icon-position-timestamp=1547592226
 
 [Media.volume]
-nautilus-icon-position=56,386
+nautilus-icon-position=56,426
 icon-scale=1
-nautilus-icon-position-timestamp=1574262476
+nautilus-icon-position-timestamp=1577794755

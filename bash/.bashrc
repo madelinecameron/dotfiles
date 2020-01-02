@@ -52,3 +52,5 @@ export NVM_DIR="$HOME/.nvm"
 if [ -f ~/.dotfiles/bash/hub.bash_completion ]; then
   . ~/.dotfiles/bash/hub.bash_completion
 fi
+
+export EDITOR=vim

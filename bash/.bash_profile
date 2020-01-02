@@ -65,26 +65,26 @@ alias install="sudo apt-get install"
 alias remove="sudo apt-get remove"
 alias search="apt-cache search"
 
-alias pbcopy='xclip -i -selection clipboard'
-alias pbpaste='xclip -o -selection clipboard'
+alias pbcopy="xclip -i -selection clipboard"
+alias pbpaste="xclip -o -selection clipboard"
 
-alias du='du -h'
+alias du="du -h"
 alias connect='sudo nmcli dev wifi con "https://qnzl.co" password 6366998620 "phone"'
-alias mkdir='mkdir -p'
+alias mkdir="mkdir -p"
 alias wget='wget -e robots=off --no-check-certificate --referer="http://www.google.com" --user-agent="Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6" --header="Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5" --header="Accept-Language: en-us,en;q=0.5" --header="Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7" --header="Keep-Alive: 300"'
 
 alias nis="npm install --save"
 alias nid="npm install --save-dev"
 alias nig="npm install -g"
 
-alias g='git status'
-alias gp='git push'
+alias g="git status"
+alias gp="git push"
+alias goops="git commit --amend --no-edit && git push -f origin $(git rev-parse --abbrev-ref HEAD)"
 
 alias t="tmuxinator $1"
+alias ta="tmux attach-session -t $1"
 
 alias fx="firefox --new-instance --profile $(mktemp -d)"
-
-alias passc="pass $1 | cut -d$'\n' -f1 | pbcopy"
 
 function cheat() {
     curl cht.sh/$1
