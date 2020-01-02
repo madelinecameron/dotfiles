@@ -25,7 +25,7 @@ fi
 
 use_color=true
 
-. /usr/share/autojump/autojump.sh
+#. /usr/share/autojump/autojump.sh
 
 # Update path
 export PATH=$HOME/usr/local/sbin:$PATH
