@@ -15,6 +15,7 @@ Plug 'mhinz/vim-startify'                   " start screen
 Plug 'DataWraith/auto_mkdir'                " mkdir -p for creating files
 Plug 'sjl/gundo.vim'                        " view undo tree
 Plug 'itchyny/lightline.vim'
+Plug 'mileszs/ack.vim'
 
 "Plug 'dense-analysis/ale'
 
@@ -30,6 +31,8 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+let g:ackprg = 'ag --vimgrep'
 
 " Essentials
 Plug 'vim-scripts/mru.vim'                  " recently opened files (mru)
@@ -58,6 +61,8 @@ call plug#end()
 " =============================================================================
 
 set clipboard=unnamed
+vmap <C-x> :!pbcopy<CR>
+vmap <C-c> :w !pbcopy<CR><CR>
 if has("mac")
   set shortmess+=c                    " Getsrid of annoying error messages
 endif
