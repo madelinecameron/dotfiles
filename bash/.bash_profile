@@ -30,7 +30,8 @@ use_color=true
 # Update path
 export PATH=$HOME/usr/local/sbin:$PATH
 export PATH=$HOME/bin:$PATH
-export PATH=/usr/local/bin/activitywatch:$PATH
+export PATH=/usr/bin/activitywatch:$PATH
+export PATH=$PATH:$HOME/.local/bin
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 source ~/.dotfiles/ssh/connect

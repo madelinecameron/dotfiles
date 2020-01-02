@@ -1,6 +1,6 @@
 declare -A rawIPs
 
-rawIPs["dips"]="140.82.63.74"
+rawIPs["personal"]="8.9.3.221"
 rawIPs["qnzl"]="45.76.2.252"
 
 function connect_ip() {
