@@ -1,2 +1,4 @@
-*.swp
-*.swo
+scripts/lib/x_easyxdm_old/*
+scripts/lib/easyxdm/*
+scripts/lib/jquery.js
+scripts/lib/swfupload.js

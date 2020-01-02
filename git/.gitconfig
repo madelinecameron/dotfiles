@@ -17,7 +17,7 @@
   nuke = reset --hard origin $(git rev-parse --abbrev-ref HEAD)
   go = checkout -B
 [core]
-  excludesfile = ~/.dotfiles/git/.gitignore
+	excludesfile = ~/.gitignore
   autocrlf = input
   editor = vim
   # Treat spaces before tabs and all kinds of trailing whitespace as an error
