@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+
+my ($a, $b, @files) = @ARGV;
+foreach my $file (@files)
+{
+	my $new = $file;
+	$new =~ s/$a/$b/g;
+	print "$file\t\t-> $new\n";
+	rename($file, $new);
+}
+
