@@ -33,12 +33,16 @@ export PATH=$HOME/bin:$PATH
 export PATH=/usr/bin/activitywatch:$PATH
 export PATH=$PATH:$HOME/.local/bin
 
+export GRAPH_URL=https://graph.maddie.today/graphql
+export GRAPH_AUTHORIZATION=$(lockbox watchers/graphAuthorization)
+export EXIST_AUTHORIZATION=$(lockbox watchers/existAuthorization)
+
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 source ~/.dotfiles/ssh/connect
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 alias l="ls -lha"
 alias ls="ls -la"
@@ -79,10 +83,10 @@ alias nig="npm install -g"
 
 alias g="git status"
 alias gp="git push"
-alias goops="git commit --amend --no-edit && git push -f origin $(git rev-parse --abbrev-ref HEAD)"
 
 alias t="tmuxinator $1"
 alias ta="tmux attach-session -t $1"
+alias tk="tmux kill-session -t $1"
 
 alias fx="firefox --new-instance --profile $(mktemp -d)"
 
@@ -114,3 +118,4 @@ function extract () {
 prettyjson_s() {
   echo "$1" | python -m json.tool
 }
+

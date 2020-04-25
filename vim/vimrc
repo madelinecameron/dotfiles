@@ -43,7 +43,6 @@ Plug 'airblade/vim-gitgutter'               " show diff in code
 Plug 'terryma/vim-smooth-scroll'            " better scrolling
 Plug 'tpope/vim-surround'                   " surround words with characters
 Plug 'tpope/vim-commentary'                 " easily comment out code
-Plug 'tpope/vim-repeat'                     " better repeat (.)
 Plug 'tpope/vim-fugitive'                   " git integration
 Plug 'ntpeters/vim-better-whitespace'       " whitespace handler
 Plug 'wellsjo/vim-save-cursor-position'     " Save cursor position when you exit files
@@ -60,7 +59,8 @@ call plug#end()
 
 " =============================================================================
 
-set clipboard=unnamed
+set clipboard=unnamedplus
+set dir=/tmp
 vmap <C-x> :!pbcopy<CR>
 vmap <C-c> :w !pbcopy<CR><CR>
 if has("mac")

@@ -23,11 +23,13 @@ function initialize_system() {
   symlink "${HOME}/.dotfiles/.tmux/tmux.conf" "${HOME}/.tmux.conf"
 
   # git
+  symlink "${HOME}/.dotfiles/git/.gitignore" "${HOME}/.gitignore"
   symlink "${HOME}/.dotfiles/git/.gitconfig" "${HOME}/.gitconfig"
   symlink "${HOME}/.dotfiles/git/.gitmessage" "${HOME}/.gitmessage"
   symlink "${HOME}/.dotfiles/git/.git-templates" "${HOME}/.git-templates"
 
   # cron
+  symlink "${HOME}/.dotfiles/cron/daily/*" "/etc/cron.daily"
   symlink "${HOME}/.dotfiles/cron/weekly/*" "/etc/cron.weekly"
 
   # tools
