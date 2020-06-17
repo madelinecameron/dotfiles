@@ -107,7 +107,7 @@ function install_st() {
 }
 
 function install_basic_packages() {
-  sudo apt install build-essential feh autojump blueman pass
+  sudo apt install build-essential feh autojump blueman pass entr silversearcher-ag
 }
 
 function uninstall_dotfiles() {
