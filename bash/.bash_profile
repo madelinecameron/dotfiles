@@ -28,10 +28,12 @@ use_color=true
 #. /usr/share/autojump/autojump.sh
 
 # Update path
+export PATH=$PATH:$GOPATH
 export PATH=$HOME/usr/local/sbin:$PATH
 export PATH=$HOME/bin:$PATH
 export PATH=/usr/bin/activitywatch:$PATH
 export PATH=$PATH:$HOME/.local/bin
+export PATH=/usr/local/go/bin:$PATH
 
 export GRAPH_URL=https://graph.maddie.today/graphql
 export GRAPH_AUTHORIZATION=$(lockbox watchers/graphAuthorization)

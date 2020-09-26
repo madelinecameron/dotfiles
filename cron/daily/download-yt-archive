@@ -1,0 +1,7 @@
+#!/bin/bash
+
+PLAYLIST_URL="https://www.youtube.com/playlist?list=PLDXujhFmVqib4XNiCPRge6OSnEzLNV2ti"
+OUTPUT_PATH="/media/Archive/Personal/Private/Media/YouTube/LikedVideos"
+
+cd ${OUTPUT_PATH}
+youtube-dl --yes-playlist ${PLAYLIST_URL}

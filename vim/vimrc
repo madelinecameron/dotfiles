@@ -46,6 +46,7 @@ Plug 'tpope/vim-commentary'                 " easily comment out code
 Plug 'tpope/vim-fugitive'                   " git integration
 Plug 'ntpeters/vim-better-whitespace'       " whitespace handler
 Plug 'wellsjo/vim-save-cursor-position'     " Save cursor position when you exit files
+Plug 'ActivityWatch/aw-watcher-vim'
 
 " Languages
 Plug 'posva/vim-vue'

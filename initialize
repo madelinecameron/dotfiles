@@ -108,6 +108,9 @@ function install_st() {
 
 function install_basic_packages() {
   sudo apt install build-essential feh autojump blueman pass entr silversearcher-ag
+
+  sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+  sudo chmod a+rx /usr/local/bin/youtube-dl
 }
 
 function uninstall_dotfiles() {
