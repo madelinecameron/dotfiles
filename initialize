@@ -132,4 +132,4 @@ function symlink() {
   echo -e "$1 --> $2"
 }
 
-initialize_node
+initialize_system
