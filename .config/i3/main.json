@@ -9,13 +9,13 @@
        "x": 0,
        "y": 0
     },
-    "name": "st",
+    "name": "kitty",
     "percent": 0.66,
     "swallows": [
        {
-         "class": "^st\\-256color$",
-         "instance": "^st\\-256color$",
-        "title": "^st$"
+         "class": "^kitty$",
+         "instance": "^kitty$",
+        "title": "^kitty$"
        }
     ],
     "type": "con"
@@ -51,9 +51,9 @@
                     "percent": 0.6,
                     "swallows": [
                        {
-                          "class": "^Firefox$",
+                          "class": "^Brave$",
                           "instance": "^Navigator$",
-                          "title": "^Mozilla\\ Firefox$",
+                          "title": "^Brave\\ Browser$",
                           "window_role": "^browser$"
                        }
                     ],

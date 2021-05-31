@@ -39,7 +39,7 @@ export GRAPH_URL=https://graph.maddie.today/graphql
 export GRAPH_AUTHORIZATION=$(lockbox watchers/graphAuthorization)
 export EXIST_AUTHORIZATION=$(lockbox watchers/existAuthorization)
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash && source ~/.fzf.bindings.bash
 source ~/.dotfiles/ssh/connect
 
 #export NVM_DIR="$HOME/.nvm"
@@ -91,6 +91,23 @@ alias ta="tmux attach-session -t $1"
 alias tk="tmux kill-session -t $1"
 
 alias fx="firefox --new-instance --profile $(mktemp -d)"
+
+# TupleTally commands
+alias food='python3 -m tupletally prompt food'
+alias food-now='python3 -m tupletally prompt-now food'
+alias food-recent='python3 -m tupletally recent food'
+alias shower='python3 -m tupletally prompt shower'
+alias shower-now='python3 -m tupletally prompt-now shower'
+alias shower-recent='python3 -m tupletally recent shower'
+alias water='python3 -m tupletally prompt water'
+alias water-now='python3 -m tupletally prompt-now water'
+alias water-recent='python3 -m tupletally recent water'
+alias weight='python3 -m tupletally prompt weight'
+alias weight-now='python3 -m tupletally prompt-now weight'
+alias weight-recent='python3 -m tupletally recent weight'
+alias caffeine='python3 -m tupletally prompt caffeine'
+alias caffeine-now='python3 -m tupletally prompt-now caffeine'
+alias caffeine-recent='python3 -m tupletally recent caffeine'
 
 function cheat() {
     curl cht.sh/$1
