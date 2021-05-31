@@ -93,7 +93,7 @@ function install_terminal() {
 }
 
 function install_basic_packages() {
-  sudo apt install build-essential feh autojump blueman pass entr silversearcher-ag tmux
+  sudo apt install curl build-essential feh autojump blueman pass entr silversearcher-ag tmux
 
   sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
   sudo chmod a+rx /usr/local/bin/youtube-dl
