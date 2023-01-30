@@ -1,0 +1,140 @@
+#!/usr/bin/python
+"""
+A reward system that complements taskwarrior.
+
+In order for this to work, you need this in your ~/.taskrc:
+    uda.bounty.label=Bounty
+    uda.bounty.type=numeric
+
+Then assign bounties to some tasks:
+    task +university modify bounty:10
+
+When you complete tasks with a bounty and run `gold`, it will count the gold
+you gained since you last ran it and add it to your account (~/.gold).
+
+You can use the gold to buy rewards with `gold <rewardname>`
+
+Format of ~/.gold_rewards.csv: NAME[string],COST[int]
+
+Add tab completions to bash with this line: (breaks on spaces in reward names!)
+    complete -W "$(gold --list-raw)" gold
+"""
+
+import time
+from argparse import ArgumentParser
+import sys, os.path, csv
+from os.path import *
+from subprocess import *
+
+# CONSTANTS
+FNAME_COLLECTED = expanduser("~/.gold_collected")
+FNAME_GOLD = expanduser("~/.gold")
+FNAME_REWARDS = expanduser("~/.gold_rewards.csv")
+FNAME_REWARDHISTORY = expanduser("~/.gold_history.csv")
+QUERY_GETALL = "rc.context= status:completed bounty.any: _uuids"
+QUERY_GETATTR = "_get {uuid}.{attr}"
+EDITOR = os.environ.get("EDITOR", "vim")
+
+# LIB
+def task(query, *args, **kwds):
+    return getoutput("task " + query.format(*args, **kwds))
+
+def attr(uuid, attr):
+    return task(QUERY_GETATTR, uuid=uuid, attr=attr)
+
+def get_rewards():
+    try:
+        f = open(FNAME_REWARDS, "r")
+    except FileNotFoundError:
+        return dict()
+    else:
+        result = dict((entry[0], dict(name=entry[0], cost=entry[1])) for entry in csv.reader(f))
+        f.close()
+        return result
+
+# ARGUMENTS
+ap = ArgumentParser(description=__doc__.split("\n")[1])
+ap.add_argument("--reset", action="store_true",
+    help="remove the ~/.gold and ~/.gold_collected files")
+ap.add_argument("--force", "-f", action="store_true",
+    help="buy it even if it means going below 0 gold")
+ap.add_argument("--edit", "-e", action="store_true",
+    help="edit the rewards")
+ap.add_argument("--history", action="store_true",
+    help="edit the transaction history")
+ap.add_argument("reward", type=str, nargs='?',
+    help="specify any string as argument to buy that reward")
+ap.add_argument("--list-raw", action="store_true",
+    help="list the reward names, for tab completion scripts")
+opt = ap.parse_args()
+
+if opt.reset:
+    os.unlink(FNAME_COLLECTED)
+    os.unlink(FNAME_GOLD)
+    print("resetting gold...")
+    sys.exit()
+if opt.edit:
+    call([EDITOR, FNAME_REWARDS])
+    sys.exit()
+if opt.history:
+    call([EDITOR, FNAME_REWARDHISTORY])
+    sys.exit()
+if opt.list_raw:
+    for reward in get_rewards():
+        print(reward)
+    sys.exit()
+
+# DATA COLLECTION
+try:
+    have_uuids = set(open(FNAME_COLLECTED, "r").read().rstrip().split("\n"))
+except FileNotFoundError:
+    have_uuids = set()
+try:
+    gold = int(open(FNAME_GOLD, "r").read())
+except FileNotFoundError:
+    gold = 0
+current_uuids = set(task(QUERY_GETALL).split("\n"))
+
+# LOGIC
+if not opt.reward:
+    try:
+        items = list(get_rewards().items())
+    except FileNotFoundError:
+        pass
+    else:
+        fmt = "\033[0;38;5;132m{cost:>4} gold: {name}\033[0m"
+        items.sort(key=lambda item: item[0])
+        items.sort(key=lambda item: int(item[1]['cost']))
+        lines = map((lambda item: fmt.format(**item[1])), items)
+        for line in lines:
+            print(line)
+
+new_uuids = current_uuids - have_uuids
+for uuid in new_uuids:
+    bounty = int(attr(uuid, "bounty"))
+    name = attr(uuid, "description")
+    print("\033[0;38;5;46m+{bounty} gold for completing `{name}`\033[0m".format(bounty=bounty, name=name))
+    gold += bounty
+
+if opt.reward:
+    rewards = get_rewards()
+    if opt.reward in rewards:
+        thing = rewards[opt.reward]
+        cost = int(thing['cost'])
+        if gold < cost and not opt.force:
+            print("Not enough money for {name}!".format(**thing))
+        else:
+            gold -= cost
+            print("Bought {name} for {cost}!".format(**thing))
+
+            # Record the transaction
+            fmt = "{date},{name},{cost}\n"
+            open(FNAME_REWARDHISTORY, "a").write(fmt.format(date=time.strftime("%x %X"), **thing))
+    else:
+        print("No such reward: {name}!".format(name=opt.reward))
+
+print("\033[1;38;5;214mGold: %d\033[0m" % gold)
+
+# DATA STORAGE
+open(FNAME_COLLECTED, "w").write("\n".join(current_uuids | have_uuids))
+open(FNAME_GOLD, "w").write(str(gold) + "\n")

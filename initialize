@@ -26,6 +26,16 @@ function initialize_system() {
   echo -e "\nDone!"
 }
 
+function initialize_nvim() {
+  sudo apt install --yes neovim
+
+  echo -e "\nSetting symlinks..."
+  mkdir "${HOME}/.config/nvim"
+
+  symlink "${HOME}/.dotfiles/vim" "${HOME}/.config/nvim/vim"
+
+  nvim +PlugInstall +qall
+}
 function initialize_vim() {
   sudo apt install --yes vim
 

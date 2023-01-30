@@ -60,8 +60,10 @@ alias wifi="nmcli dev wifi"
 # Get week number
 alias week='date +%V'
 
+alias python='python3'
+
 # IP addresses
-alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+#alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
 
@@ -83,12 +85,21 @@ alias nis="npm install --save"
 alias nid="npm install --save-dev"
 alias nig="npm install -g"
 
+alias screenshot="escrotum -s ~/Pictures/screenshots/%Y-%m-%d-%H%M%S.png"
 alias g="git status"
 alias gp="git push"
 
 alias t="tmuxinator $1"
 alias ta="tmux attach-session -t $1"
 alias tk="tmux kill-session -t $1"
+
+# Taskwarrior aliases
+alias taq="task add +qnzl"
+alias tah="task add +home"
+alias tal="task add +employ"
+alias today="task +TODAY"
+
+alias vim="nvim"
 
 alias fx="firefox --new-instance --profile $(mktemp -d)"
 

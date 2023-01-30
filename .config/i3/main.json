@@ -15,12 +15,11 @@
        {
          "class": "^kitty$",
          "instance": "^kitty$",
-        "title": "^kitty$"
+         "title": "^kitty$"
        }
     ],
     "type": "con"
-}
-
+},
 {
     // splitv split container with 1 children
     "border": "normal",
@@ -51,9 +50,9 @@
                     "percent": 0.6,
                     "swallows": [
                        {
-                          "class": "^Brave$",
-                          "instance": "^Navigator$",
-                          "title": "^Brave\\ Browser$",
+                          "class": "^brave$",
+                          "instance": "^brave$",
+                          "title": "^Brave$",
                           "window_role": "^browser$"
                        }
                     ],

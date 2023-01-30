@@ -2,9 +2,10 @@ declare -A rawIPs
 
 rawIPs["personal"]="8.9.3.221"
 rawIPs["qnzl"]="45.76.2.252"
+rawIPs["qnzl-blog"]="66.135.0.157"
 
 function connect_ip() {
-  ssh root@${rawIPs[$1]} -A -i ~/.ssh/qnzl
+  ssh root@${rawIPs[$1]} -A -i ~/.ssh/qnzl -i ~/.ssh/id_rsa
 }
 
 function ips() {

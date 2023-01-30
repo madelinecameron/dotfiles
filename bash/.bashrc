@@ -52,4 +52,15 @@ export NVM_DIR="$HOME/.nvm"
 if [ -f ~/.dotfiles/bash/hub.bash_completion ]; then
   . ~/.dotfiles/bash/hub.bash_completion
 fi
+
+export LD_LIBRARY_PATH=/usr/lib/chitubox/lib:$LD_LIBRARY_PATH
 export EDITOR=vim
+
+# pnpm
+export PNPM_HOME="/home/mads/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+
+export DENO_INSTALL="/home/mads/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
